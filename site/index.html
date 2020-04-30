@@ -3,327 +3,462 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cuda</title>
+    <title>Cudo</title>
     <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header  id="block-1">
-    <div class="container">
-        <nav>
-            <img src="img/logo.png" alt="logo" class="logo">
-            <a href="#block-1" class="menu">HOME</a>
-            <a href="#block-2" class="menu2">ABOUT</a>
-            <a href="#block-4" class="menu2">BLOCK</a>
-            <a href="#block-5" class="menu2">WORK</a>
-            <a href="#block-7" class="menu2">CONTACT</a>
-        </nav>
-        <h1>Hi there! We are the new kids on the block 
-        <br>
-            and we build awesome websites and mobile apps.</h1>
-        <div class="button">
+
+<!-- HEADER------------------------------------------------>
+<header>
+    <div class="content">
+        <div class="menu_section">
+            <a href="#" alt="logo">
+                <img src="img/logo.png" alt="logo" class="logo">
+            </a>
+                <a href="#" class="menu1 menu">HOME</a>
+                <a href="#" class="menu">ABOUT</a>
+                <a href="#" class="menu">WORK</a>
+                <a href="#" class="menu">BLOG</a>
+                <a href="#" class="menu">CONTACT</a>
+                <div class="hamburger-menu">
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                      <span></span>
+                    </label>
+                    <ul class="menu__box">
+                        <li><a href="#" alt="logo"><img src="img/logo.png" alt="logo" class="logo"></a>
+                        </li>
+                      <li><a href="#" class="menu1 menu menu_hum">HOME</a></li>
+                      <li><a href="#" class="menu menu_hum">ABOUT</a></li>
+                      <li><a href="#" class="menu menu_hum">WORK</a></li>
+                      <li><a href="#" class="menu menu_hum">BLOG</a></li>
+                      <li><a href="#" class="menu menu_hum">CONTACT</a></li>
+                    </ul>
+                  </div>
+        </div>
+        <h1 class="head">
+            Hi there! We are the new kids on the block 
+            and we build awesome websites and mobile apps.
+        </h1>
+        <div class="btn">
             <a href="#">WORK WITH US!</a>
+        </div> 
+    </div>
+</header>
+<!-- END HEADER------------------------------------------------>
+
+<!-- SERVICES------------------------------------------------>
+ <section class="services_section">   
+    <div class="content">
+        <h2 class="services_header">
+            SERVICES WE PROVIDE
+        </h2>
+        <hr class="line">
+        <p class="services_paragraph">
+            We are working with both individuals and businesses from all over the globe
+            to create awesome websites and applications.
+        </p>
+        <div class="services_parts">
+            <div class="services_part_1">
+                <img src="img/flag.png" alt="flag">
+                <h3 class="services_part_header">
+                    BRANDING
+                </h3>
+                <p class="services_part_text">
+                    Lorem ipsum dolor sit amet, 
+                    consectetuer adipiscing elit, sed diam nonummy nibh.
+                </p>
+            </div>
+            <div class="services_part_1">
+                <img src="img/crayon.png" alt="crayon">
+                <h3 class="services_part_header">
+                    DESIGN
+                </h3>
+                <p class="services_part_text">
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem  
+                </p>
+            </div>
+            <div class="services_part_1">
+                <img src="img/gears.png" alt="gears">
+                <h3 class="services_part_header">
+                    DEVELOPMENT
+                </h3>
+                <p class="services_part_text">
+                    At vero eos et accusamus et iusto odio dignissimos qui blanditiis praesentium.  
+                </p>
+            </div>
+            <div class="services_part_1">
+                <img src="img/rocket.png" alt="rocket">
+                <h3 class="services_part_header">
+                    ROCKET SCIENCE
+                </h3>
+                <p class="services_part_text">
+                    Et harum quidem rerum est et expedita distinctio. Nam libero tempore.
+                </p>
+            </div>
         </div>
     </div>
-    </header>
-    
-    <main>
-        <div class="block-2" id="block-2">
-            <div class="container">
-                <h1>SERVICE WE PROVIDE</h1>
-                <hr>
-                <h2>We are working with both individuals and businesses from all over the globe to create awesome websites and applications.</h2>
-                <div class="all-icons">
-                    <div class="icon">
-                        <img src="img/Flag icon.png" alt="flag" class="flag">
-                        <h3 class="branding">
-                            BRANDING
-                        </h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.
-                        </p>
-                    </div>
-                    <div class="icon">
-                        <img src="img/Crayon icon.png" alt="crayon" class="crayon">
-                        <h3 class="design">
-                            DESIGN
-                        </h3>
-                        <p>
-                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem.
-                        </p>
-                    </div>
-                    <div class="icon">
-                        <img src="img/Gears icon.png" alt="gears" class="gears">
-                        <h3 class="development">
-                            DEVELOPMENT
-                        </h3>
-                        <p>
-                            At vero eos et accusamus et iusto odio dignissimos qui blanditiis praesentium.
-                        </p>
-                    </div>
-                    <div class="icon">
-                        <img src="img/Rocket icon.png" alt="rocket" class="rocket">
-                        <h3 class="rocket science">
-                            ROCKET SCIENCE
-                        </h3>
-                        <p>
-                            Et harum quidem rerum est et expedita distinctio. Nam libero tempore.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="block-3">
-            <div class="container">
-                <h1>MEET OUR BEAUTIFUL TEAM</h1>
-                <hr>
-                <h2 class="team">We are a small team of designers and developers, who help brands with big ideas.</h2>
-                <div class="all-members">
-                    <div class="member">
-                        <img src="img/Base.png" alt="base">
-                        <div>
-                            <h2 class="name-member">
-                                ANNE HATHAWAY
-                            </h2>
-                            <h3 class="who-member">
-                                CEO / Marketing Guru
-                            </h3>
-                            <p class="text-member">
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.
-                            </p>
-                            <img src="img/Fb icon.png" alt="fb" class="networks">
-                            <img src="img/Twitter icon.png" alt="twitter" class="networks">
-                            <img src="img/LinkedIn icon.png" alt="linked in" class="networks">
-                            <img src="img/Mail icon.png" alt="mail" class="networks">
-                        </div>
-                    </div>
-                    <div class="member">
-                        <img src="img/Base.png" alt="base" class="base">
-                        <div>
-                            <h2 class="name-member">
-                                KATE UPTON
-                            </h2>
-                            <h3 class="who-member">
-                                Creative Director
-                            </h3>
-                            <p class="text-member">
-                                Duis aute irure dolor in in voluptate velit esse cillum dolore fugiat nulla pariatur. Excepteur sint occaecat non diam proident.
-                            </p>
-                            <img src="img/Twitter icon.png" alt="twitter" class="networks">
-                            <img src="img/LinkedIn icon.png" alt="linked in" class="networks">
-                            <img src="img/Mail icon.png" alt="mail" class="networks">
-                        </div>
-                    </div>
-                    <div class="member">
-                        <img src="img/Base.png" alt="base">
-                        <div>
-                            <h2 class="name-member">
-                                OLIVIA WILDE
-                            </h2>
-                            <h3 class="who-member">
-                                Lead Designer
-                            </h3>
-                            <p class="text-member">
-                                Nemo enim ipsam voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem nesciunt.
-                            </p>
-                            <img src="img/Fb icon.png" alt="fb" class="networks">
-                            <img src="img/Twitter icon.png" alt="twitter" class="networks">
-                            <img src="img/LinkedIn icon.png" alt="linked in" class="networks">
-                            <img src="img/Mail icon.png" alt="mail" class="networks">
-                        </div>
-                    </div>
-                    <div class="member">
-                        <img src="img/Base.png" alt="base">
-                        <div>
-                            <h2 class="name-member">
-                                ASHLEY GREENE
-                            </h2>
-                            <h3 class="who-member">
-                                SEO / Developer
-                            </h3>
-                            <p class="text-member">
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
-                            </p>
-                            <img src="img/Fb icon.png" alt="fb" class="networks">
-                            <img src="img/Twitter icon.png" alt="twitter" class="networks">
-                            <img src="img/Mail icon.png" alt="mail" class="networks">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="block-4" id="block-4">
-            <div class="container">
-                <h1>WE GOT SKILLS!</h1>
-                <hr>
-                <h2 class="skill-header">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </h2>
-                <div class="all-skills">
-                    <div class="skill">
-                        <img src="img/4.png">
-                        <h3>WEB DESIGN</h3>
-                    </div>
-                    <div class="skill">
-                        <img src="img/3.png">
-                        <h3>HTML / CSS</h3>
-                    </div>
-                    <div class="skill">
-                        <img src="img/2.png">
-                        <h3>GRAPHIC DESIGN</h3>
-                    </div>
-                    <div class="skill">
-                        <img src="img/1.png">
-                        <h3>UI / UX</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
+</section>
+<!-- END SERVICES------------------------------------------------>
 
-        <div class="block-5" id="block-5">
-            <div class="container">
-                <h1>OUR PORTFOLIO</h1>
-                <hr>
-                <h2 class="portfolio">
-                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur, adipisci velit, sed quia non numquam
-                </h2>
-                <div class="portfolio-button">
-                    <a href="#" class="portfolio-1">ALL</a>
-                    <a href="#" class="portfolio-2">WEB</a>
-                    <a href="#" class="portfolio-2">APPS</a>
-                    <a href="#" class="portfolio-2">ICONS</a>
+<!-- TEAM------------------------------------------------>
+<section class="team_section">   
+    <div class="content">
+        <h2 class="team_header">
+            MEET OUR BEAUTIFUL TEAM
+        </h2>
+        <hr class="line_team">
+        <p class="team_paragraph">
+            We are a small team of designers and developers, who help brands with big ideas.
+        </p>
+        <div class="team_parts">
+            <div class="team_part_1">
+                <img src="img/base.png" alt="base">
+                <h3 class="team_part_header">
+                    ANNE HATHAWAY
+                </h3>
+                <p class="team_part_caption">
+                    CEO / Marketing Guru
+                </p>
+                <p class="team_part_text">
+                    Lorem ipsum dolor sit amet, 
+                    consectetuer adipiscing elit, 
+                    sed diam nonummy nibh 
+                    euismod tincidunt ut laoreet 
+                    dolore magna.
+                </p>
+                <div class="icons">
+                    <a href="#" class="icons_logo">
+                        <img src="img/fb.png" alt="facebook">
+                    </a>
+                    <a href="#" class="icons_logo">
+                        <img src="img/tw.png" alt="facebook">
+                    </a>
+                    <a href="#" class="icons_logo">
+                        <img src="img/in.png" alt="facebook">
+                    </a>
+                    <a href="#" class="icons_logo">
+                        <img src="img/mail.png" alt="facebook">
+                    </a>
                 </div>
-                <div class="all-computers-1">
-                    <div class="computers-1">
-                        <img src="img/11.png">
-                        <h3>ISOMETRIC PERSPECTIVE MOCK-UP</h3>
-                    </div>
-                    <div class="computers-1">
-                        <img src="img/12.png">
-                        <h3>TIME ZONE APP UI</h3>
-                    </div>
+            </div>
+            <div class="team_part_1">
+                <img src="img/base.png" alt="base">
+                <h3 class="team_part_header">
+                    KATE UPTON
+                </h3>
+                <p class="team_part_caption">
+                    Creative Director
+                </p>
+                <p class="team_part_text">
+                    Duis aute irure dolor in in 
+                    voluptate velit esse cillum 
+                    dolore fugiat nulla pariatur. 
+                    Excepteur sint occaecat non 
+                    diam proident.
+                </p>
+                <div class="icons2">
+                    <a href="#" class="icons_logo">
+                        <img src="img/tw.png" alt="facebook">
+                    </a>
+                    <a href="#" class="icons_logo">
+                        <img src="img/in.png" alt="facebook">
+                    </a>
+                    <a href="#" class="icons_logo">
+                        <img src="img/mail.png" alt="facebook">
+                    </a>
                 </div>
-                <div class="all-computers-2">
-                    <div class="computers-2">
-                        <img src="img/13.png">
-                        <h3>VIRO MEDIA PLAYERS UI</h3>
-                    </div>
-                    <div class="computers-2">
-                        <img src="img/14.png">
-                        <h3>BLOG / MAGAZINE FLAT UI KIT</h3>
-                    </div>
+            </div>
+            <div class="team_part_1">
+                <img src="img/base.png" alt="base">
+                <h3 class="team_part_header">
+                    OLIVIA WILDE
+                </h3>
+                <p class="team_part_caption">
+                    Lead Designer
+                </p>
+                <p class="team_part_text">
+                    Nemo enim ipsam voluptas <br>   
+                    sit aspernatur aut odit aut 
+                    fugit, sed quia consequuntur <br>
+                    magni dolores eos qui ratione 
+                    voluptatem nesciunt.
+                </p>
+                <div class="icons">
+                    <a href="#" class="icons_logo">
+                        <img src="img/fb.png" alt="facebook">
+                    </a>
+                    <a href="#" class="icons_logo">
+                        <img src="img/tw.png" alt="facebook">
+                    </a>
+                    <a href="#" class="icons_logo">
+                        <img src="img/in.png" alt="facebook">
+                    </a>
+                    <a href="#" class="icons_logo">
+                        <img src="img/mail.png" alt="facebook">
+                    </a>
                 </div>
-                <div class="button-2">
-                    <a href="#">LOAD MORE PROJECTS</a>
+            </div>
+            <div class="team_part_1">
+                <img src="img/base.png" alt="base">
+                <h3 class="team_part_header">
+                    ASHLEY GREENE
+                </h3>
+                <p class="team_part_caption">
+                    SEO / Developer
+                </p>
+                <p class="team_part_text">
+                    Sed ut perspiciatis unde 
+                    omnis iste natus error sit 
+                    voluptatem accusantium 
+                    doloremque laudantium, 
+                    totam rem aperiam.
+                </p>
+                <div class="icons2">
+                    <a href="#" class="icons_logo">
+                        <img src="img/fb.png" alt="facebook">
+                    </a>
+                    <a href="#" class="icons_logo">
+                        <img src="img/tw.png" alt="facebook">
+                    </a>
+                    <a href="#" class="icons_logo">
+                        <img src="img/mail.png" alt="facebook">
+                    </a>
                 </div>
             </div>
         </div>
+    </div>
+</section>
+<!-- END TEAM------------------------------------------------>
 
-        <div class="block-6">
-            <div class="container">
-                <h1>WHAT PEOPLE SAY ABOUT US</h1>
-                <hr>
-                <h2 class="love">Our clients love us!</h2>
-                <div class="all-reviews">
-                    <div class="review">
-                        <img src="img/Base.png" alt="base">
-                        <div>
-                            <p class="text-review">
-                                “Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl scelerisque.”
-                            </p>
-                            <h2 class="name-review">
-                                CHANEL IMAN
-                            </h2>
-                            <p class="source-review">
-                                CEO of Pinterest
-                            </p>
-                        </div>
-                    </div>
-                    <div class="review">
-                        <img src="img/Base.png" alt="base">
-                        <div>
-                            <p class="text-review">
-                                “Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta.”
-                            </p>
-                            <h2 class="name-review">
-                                ADRIANA LIMA
-                            </h2>
-                            <p class="source-review">
-                                Founder of Instagram
-                            </p>
-                        </div>
-                    </div>
+<!-- SKILLS------------------------------------------------>
+<section class="skills_section">   
+    <div class="content">
+        <h2 class="skills_header">
+            WE GOT SKILLS!
+        </h2>
+        <hr class="skills_team">
+        <p class="skills_paragraph">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+            tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <div class="skills_block">
+            <div class="skill">
+                <p class="skill_percent skill_percent_1">
+                    90 <span>%</span>
+                </p>
+                <p class="skill_name">
+                    Web Design
+                </p>
+            </div>
+            <div class="skill">
+                <p class="skill_percent skill_percent_2">
+                    75 <span>%</span>
+                </p>
+                <p class="skill_name">
+                    HTML / CSS
+                </p>
+            </div>
+            <div class="skill">
+                <p class="skill_percent skill_percent_3">
+                    70 <span>%</span>
+                </p>
+                <p class="skill_name">
+                    GRAPHIC DESIGN
+                </p>
+            </div>
+            <div class="skill">
+                <p class="skill_percent skill_percent_4">
+                    85 <span>%</span>
+                </p>
+                <p class="skill_name">
+                    UI / UX
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- END SKILLS------------------------------------------------>
+
+<!-- PORTFOLIO------------------------------------------------>
+<section class="portfolio_section">   
+    <div class="content">
+        <h2 class="portfolio_header">
+            OUR PORTFOLIO
+        </h2>
+        <hr class="portfolio_team">
+        <p class="portfolio_paragraph">
+            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet
+            consectetur, adipisci velit, sed quia non numquam
+        </p>
+        <div class="portfolio_menu">
+            <a href="#" class="portfolio_menu_1">
+                ALL
+            </a>
+            <a href="#" class="portfolio_menu_1">
+                WEB
+            </a>
+            <a href="#" class="portfolio_menu_1 portfolio_menu_2">
+                APPS
+            </a>
+            <a href="#" class="portfolio_menu_1 portfolio_menu_2">
+                ICONS
+            </a>
+        </div>
+        <div class="portfolio_blocks">
+            <div class="portfolio_block portfolio_block_1">
+                <div class="portfolio_1">
+                    <img src="img/portfolio_1.png" alt="laptop">
+                    <p>
+                        Isometric Perspective Mock-Up
+                    </p>
                 </div>
-                    
-                <div class="all-reviews all-reviews2">
-                    <div class="review">
-                        <img src="img/Base.png" alt="base">
-                        <div>
-                            <p class="text-review">
-                                “Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta.”
-                            </p>
-                            <h2 class="name-review">
-                                ANNE HATHAWAY
-                            </h2>
-                            <p class="source-review">
-                                Lead Designer at Behance
-                            </p>
-                        </div>
-                    </div>
-                    <div class="review">
-                        <img src="img/Base.png" alt="base">
-                        <div>
-                            <p class="text-review">
-                                “Phasellus non purus vel arcu tempor commodo. Fusce semper, purus vel luctus molestie, risus sem cursus neque.”
-                            </p>
-                            <h2 class="name-review">
-                                EMMA STONE
-                            </h2>
-                            <p class="source-review">
-                                Co-Founder of Shazam
-                            </p>
-                        </div>
-                    </div>
+                <div class="portfolio_2">
+                    <img src="img/portfolio_2.png" alt="laptop">
+                    <p>
+                        Time Zone App UI
+                    </p>
+                </div>
+            </div>
+            <div class="portfolio_block portfolio_block_2">
+                <div class="portfolio_1">
+                    <img src="img/portfolio_3.png" alt="laptop">
+                    <p>
+                        Viro Media Players UI
+                    </p>
+                </div>
+                <div class="portfolio_2">
+                    <img src="img/portfolio_4.png" alt="laptop">
+                    <p>
+                        Blog / Magazine Flat UI Kit
+                    </p>
                 </div>
             </div>
         </div>
+    </div>
+</section>
+<!-- END PORTFOLIO------------------------------------------------>
 
-        <div class="block-7"  id="block-7">
-            <div class="container">
-                <h1>GET IN TOUCH</h1>
-                <hr>
-                <h2 class="address">
-                    1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel: (202) 456-1111
-                </h2>
-                <form action="/index.html" method="POST">
-                    <input type="text" name="name" placeholder="Your Name *" required class="form-input">
-                    <input type="text" name="email" placeholder="Your Email *" required class="form-input form-input2">
-                    <br>
-                    <textarea name="message" placeholder="Your Email *"required class="form-input text-area">
-                    </textarea>
-                    <br>
-                </form> 
-            
-            <div class="button-2 button-form">
-                <a href="#">SEND MESSAGE</a>
-            </div>   
+<!-- REVIEW------------------------------------------------>
+<section class="review_section">   
+    <div class="content">
+        <h2 class="review_header">
+            WHAT POEPLE SAY ABOUT US
+        </h2>
+        <hr class="line">
+        <p class="review_paragraph">
+            Our clients love us!
+        </p>
+        <div class="review_parts">
+            <div class="review_part_1">
+                <img src="img/base2.png" alt="base">
+            <div class="review_caption">
+                <p class="review_part_text">
+                    “Nullam dapibus blandit orci, viverra 
+                    gravida dui lobortis eget. Maecenas 
+                    fringilla urna eu nisl scelerisque.”
+                </p>
+                <h3 class="review_part_header">
+                    CHANEL IMAN
+                </h3>
+                <p class="review_part_caption">
+                    CEO of Pinterest
+                </p>
+            </div>
+            </div>
+
+            <div class="review_part_1">
+                <img src="img/base2.png" alt="base">
+            <div class="review_caption">
+                <p class="review_part_text">
+                    “Vivamus luctus urna sed urna ultricies <br>
+                    ac tempor dui sagittis. In condimentum 
+                    facilisis porta.”
+
+
+                </p>
+                <h3 class="review_part_header">
+                    ADRIANA LIMA
+                </h3>
+                <p class="review_part_caption">
+                    Founder of Instagram
+                </p>
+            </div>
             </div>
         </div>
-    </main>
+        <div class="review_parts2">
+            <div class="review_part_1">
+                <img src="img/base2.png" alt="base">
+            <div class="review_caption">
+                <p class="review_part_text">
+                    “Vivamus luctus urna sed urna ultricies <br>
+                    ac tempor dui sagittis. In condimentum 
+                    facilisis porta.”
 
-    <footer>
-        <div class="container">
-            <div class="footer">
-                <a href="#">Facebook</a>
-                <a href="#">Twitter</a>
-                <a href="#">Google+</a>
-                <a href="#">LinkedIn</a>
-                <a href="#">Behance</a>
-                <a href="#">Dribbble</a>
-                <a href="#">GitHub</a>
-            </div> 
-        </div> 
-    </footer>   
+
+                </p>
+                <h3 class="review_part_header">
+                    ANNE HATHAWAY
+                </h3>
+                <p class="review_part_caption">
+                    Lead Designer at Behance
+                </p>
+            </div>
+            </div>
+
+            <div class="review_part_1">
+                <img src="img/base2.png" alt="base">
+            <div class="review_caption">
+                <p class="review_part_text">
+                    “Phasellus non purus vel arcu tempor 
+                    commodo. Fusce semper, purus vel luctus 
+                    molestie, risus sem cursus neque.”
+                </p>
+                <h3 class="review_part_header">
+                    EMMA STONE
+                </h3>
+                <p class="review_part_caption">
+                    Co-Founder of Shazam
+                </p>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- END REVIEW------------------------------------------------>
+
+<!-- FORM------------------------------------------------>
+<section class="form_section">   
+    <div class="content">
+        <h2 class="form_header">
+            GET IN TOUCH
+        </h2>
+        <hr class="line_form">
+        <p class="form_paragraph">
+            1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel: (202) 456-1111
+        </p>
+        <form action="URL" class="form">
+            <input type="text" name="name" placeholder="Your Name" required class="input_1">
+            <input type="text" name="name" placeholder="Your Email" required class="input_1 input_2"><br>
+            <textarea name="message"cols="30" rows="10" placeholder="Your Message" class="input_1 input_3"></textarea>
+        </form>
+    </div>
+</section>
+<!-- END FORM------------------------------------------------>
+
+<!-- FOOTER------------------------------------------------>
+<footer>
+    <div class="links content">
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Google+</a>
+        <a href="#">LinkenIn</a>
+        <a href="#">Behance</a>
+        <a href="#">Dribbble</a>
+        <a href="#">GitHub</a>
+    </div>
+</footer>
+<!-- END FOOTER------------------------------------------------>
 </body>
 </html>
