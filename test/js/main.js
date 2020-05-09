@@ -25,6 +25,7 @@ var swiper = new Swiper('.swiper-container', {
     },
     mousewheel: true,
     keyboard: true,
+    loop: true,
 
     // Responsive breakpoints
   breakpoints: {
