@@ -631,6 +631,9 @@ footer{
 .modalDialog2 h3{
     padding-top: 50px;
 }
+.navbar-nav{
+    text-align: center;
+}
 
 /*-- Adaptive--------------------------------------------------*/
 
