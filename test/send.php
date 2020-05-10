@@ -7,8 +7,8 @@
 */
 if(isset($_POST['submit'])){
 /* Устанавливаем e-mail Кому и от Кого будут приходить письма */    
-	$to = "rostikbanderstadt@gmail.com"; // Здесь нужно написать e-mail, куда будут приходить письма	
-    $from = "rostikbanderstadt@gmail.com"; // Здесь нужно написать e-mail, от кого будут приходить письма, например no-reply@epicblog.net
+	$to = "bibovplyus@yandex.ru"; // Здесь нужно написать e-mail, куда будут приходить письма	
+    $from = "bibovplyus@yandex.ru"; // Здесь нужно написать e-mail, от кого будут приходить письма, например no-reply@epicblog.net
 
 /* Указываем переменные, в которые будет записываться информация с формы */
 	$name = $_POST['name'];
