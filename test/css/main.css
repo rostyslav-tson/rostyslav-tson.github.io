@@ -185,8 +185,6 @@ p{
 }
 .input_shadow{
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.25);
-    -webkit-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.25);
-	    -moz-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.25);
 }
 .form_offer .form_btn{
     background: #37A7E7;
@@ -698,11 +696,6 @@ footer{
     .swiper-slide, .swiper-container{
         width: 960px;
     }
-    .input_shadow{
-        box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.25);
-        -webkit-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.25);
-            -moz-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.25);
-    }
     
 }
 /* 769px---992px */
@@ -808,11 +801,6 @@ footer{
     .navbar_mobile{
         display: flex;
     }
-    .input_shadow{
-        box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.25);
-        -webkit-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.25);
-            -moz-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.25);
-    }
 }
 /* 577px---768px */
 @media screen and (max-width: 768px) {
@@ -835,11 +823,6 @@ footer{
     .modal-dialog {
         max-width: 440px;
         margin: 1.75rem auto;
-    }
-    .input_shadow{
-        box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.25);
-        -webkit-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.25);
-            -moz-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.25);
     }
 }
 
@@ -871,7 +854,7 @@ footer{
         width: 100%;
         box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.25);
         -webkit-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.25);
-	    -moz-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.25);
+        -moz-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.25);
     }
     .services {
         width: 100%;
@@ -942,10 +925,5 @@ footer{
     .modal-dialog {
         max-width: 380px;
         margin: 1.75rem auto;
-    }
-    .input_shadow{
-        box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.25);
-        -webkit-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.25);
-            -moz-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.25);
     }
 }
