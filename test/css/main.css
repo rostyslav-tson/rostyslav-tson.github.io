@@ -853,6 +853,8 @@ footer{
     .form_offer input{
         width: 100%;
         box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.25);
+        -webkit-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.25);
+	    -moz-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.25);
     }
     .services {
         width: 100%;
