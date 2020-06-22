@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://static2.tinkoff.ru/forma/analytics/onlineScript.js"></script>  
+    <!-- Bootstrap CSS -->
+    <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
+  <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
+  <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+    <title>Оплатить курс</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<link rel="stylesheet" href="css/jquery.countdown.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/jquery.plugin.min.js"></script>
+<script src="js/jquery.countdown.js"></script>
+  </head>
+  <body>
+
+
+
+
+
+    <!-- Пример заголовков на странице оплаты, которые вы можете показать пользователю ======= -->
+    <h1 class="mt-120">Факт "STANDART"</h1>
+    <div>Стоимость курса: <h2>29 900 р.</h2>
+      <h2 class="price_deactivated">
+        55 000 р.
+      </h2></div>
+    <!--<h4>Параметры заказа</h4>-->
+
+<!-- Эти поля обязательные, их нельзя удалять из платежной формы =============================
+     в полях value="" в строках shopid и scid пропишите требуемые значения                 -->
+    <form action="https://money.yandex.ru/eshop.xml" method="post">
+    <input required name="shopId" value="715184" type="hidden"/>
+    <input required name="scid" value="1821796" type="hidden"/>
+    <input required name="sum" value="29900" type="number" min="29900" placeholder="29 900 р." class="none"><br>
+    <!-- сумма name="sum" указана для примера (1 руб.); напишите свое значение             -->
+
+<!-- Поле name="customerNumber" обязательное, его удалить нельзя. ============================
+     Вы можете назвать его по своему, например вместо "Номер телефона" написать "Идентификатор
+     заказа", "Номер клиента", "Номер заказа" и т.д.;
+     т.е. поле может иметь ваше название, но name="customerNumber" переименовывать нельзя.
+     Внимание! Значение поля может быть только однострочным! Если вы сделаете его многострочным,
+     то платеж будет завершаться с ошибкой "Платеж не прошел из-за технической ошибки".    -->
+     <input required name="customerNumber" value="" size="64" placeholder="Телефон"/><br>
+
+<!-- Любые из этих групп строк можно убрать (если они не нужны) или переименовать ============
+     например, вместо "Имя покупателя" написать "Цвет глаз" или "Номер автомобиля".
+     Важный момент: то, как вы назовёте поля, это будет видно только в вашей платежной форме,
+     названия полей не попадут в письмо об оплате (см. ниже информацию о письме), в письмо
+     попадут только значения полей.						           -->
+	
+     <input name="custName" value="" size="64" placeholder="Имя"/><br>
+
+
+     <input name="custEmail" value="" size="64" placeholder="Email"/><br>
+
+
+<!-- Кнопку "Оплатить", можно назвать по своему, например value="Оплатить за курсы вождения"
+     или value="Оплатить подписку на журнал" и т.д.                                        -->
+     <input type="submit" value="Оплатить" class="btn">	
+     </form>
+  </body>
+</html>
