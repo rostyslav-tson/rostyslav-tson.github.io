@@ -273,6 +273,12 @@ header h2{
 .btn_second:hover{
     color: white;
 }
+.black_section{
+    background-color: #000;
+}
+.black_section h2{
+    color: #fff;
+}
 .cost_item1{
     margin-top: 30px;
 }
