@@ -113,6 +113,9 @@ header h2{
     color: #FF2626;
     margin-bottom: 60px;
 }
+.TINKOFF_BTN_YELLOW:before {
+    content: "Купить в рассрочку";
+}
 .TINKOFF_BTN_YELLOW:hover{
     background-color: #FF2626 !important;
     color: white;
