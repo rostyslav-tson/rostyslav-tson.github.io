@@ -1,0 +1,134 @@
+body, form, h2, p {
+    text-align: center;
+    font-family: HelveticaNeueCyr;
+}
+input{
+    margin-top: 15px;
+    border: none;
+    box-shadow: 3px 3px 13px rgba(0, 0, 0, 0.12);
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    border: gray solid 1px;
+    border-radius:4px;
+    background: #fff;
+    display: block;
+    min-height: 50px;
+    padding-left: 15px;
+    width: 90%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn{
+    background-color: #FF4141;
+    width: 255px;
+    height: 60px;
+    margin: 0 auto;
+    background: #FF4141;
+    border-radius: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: ease 0.3s;
+    text-decoration: none;
+    font-family: HelveticaNeueCyr;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    color: #fff;
+    margin-top: 30px;
+}
+.btn:hover{
+    background-color: #FF2626;
+    color: white;
+}
+.mt-120{
+    margin-top: 120px;
+}
+.none{
+    display: none;
+}
+.price_deactivated{
+    font-size: 18px;
+    text-align: center;
+    text-decoration-line: line-through;
+    color: #000000;
+    opacity: 0.2;
+    margin-top: 5px;
+}
+
+.TINKOFF_BTN_YELLOW{
+    background-color: #FF4141;
+    width: 255px;
+    height: 60px;
+    margin: 0 auto;
+    background: #FFF;
+    border: 1px solid #FF2626;
+    border-radius: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: ease 0.3s;
+    text-decoration: none;
+    font-family: HelveticaNeueCyr;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    color: #FF2626;
+    margin-bottom: 60px;
+}
+.TINKOFF_BTN_YELLOW:before {
+    content: "" !important;
+}
+.TINKOFF_BTN_YELLOW:hover{
+    background-color: #FF2626 !important;
+    color: white;
+}
+.TINKOFF_BTN_YELLOW:active{
+    background-color: #FF2626 !important;
+}
+
+.price{
+    flex-direction: column;
+    align-items: center;
+}
+
+
+@font-face {
+    font-family: "HelveticaNeueCyr";  
+    src: url("..//fonts/HelveticaNeueCyr-Black.ttf"); 
+    font-style: normal; 
+    font-weight: 900;
+     }
+
+     @font-face {
+        font-family: "HelveticaNeueCyr";  
+        src: url("..//fonts/HelveticaNeueCyr-Bold.ttf"); 
+        font-style: normal; 
+        font-weight: 700;
+         }
+             @font-face {
+                font-family: "HelveticaNeueCyr";  
+                src: url("..//fonts/HelveticaNeueCyr-Light.ttf"); 
+                font-style: normal; 
+                font-weight: 500;
+                 }
+                 @font-face {
+                    font-family: "HelveticaNeueCyr";  
+                    src: url("..//HelveticaNeueCyr-Medium.ttf"); 
+                    font-style: normal; 
+                    font-weight: 400;
+                     }
+                     @font-face {
+                        font-family: "HelveticaNeueCyr";  
+                        src: url("..//fonts/HelveticaNeueCyr-Roman.ttf"); 
+                        font-style: normal; 
+                        font-weight: normal;
+                         }
+                         @font-face {
+                            font-family: "HelveticaNeueCyr";  
+                            src: url("..//fonts/HelveticaNeueCyr-Thin.ttf"); 
+                            font-style: normal; 
+                            font-weight: 200;
+                             }
