@@ -351,7 +351,9 @@ footer{
 .footer_p{
     font-size: 14px;
 }
-
+.light{
+    font-weight: 30;
+}
 
 
 @font-face {
