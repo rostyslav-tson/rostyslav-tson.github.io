@@ -6,6 +6,7 @@ input{
     margin-top: 15px;
     border: none;
     box-shadow: 3px 3px 13px rgba(0, 0, 0, 0.12);
+    display: block;
     min-height: 50px;
     padding-left: 15px;
 }
@@ -46,3 +47,42 @@ input{
     opacity: 0.2;
     margin-top: 5px;
 }
+
+
+@font-face {
+    font-family: "HelveticaNeueCyr";  
+    src: url("..//fonts/HelveticaNeueCyr-Black.ttf"); 
+    font-style: normal; 
+    font-weight: 900;
+     }
+
+     @font-face {
+        font-family: "HelveticaNeueCyr";  
+        src: url("..//fonts/HelveticaNeueCyr-Bold.ttf"); 
+        font-style: normal; 
+        font-weight: 700;
+         }
+             @font-face {
+                font-family: "HelveticaNeueCyr";  
+                src: url("..//fonts/HelveticaNeueCyr-Light.ttf"); 
+                font-style: normal; 
+                font-weight: 500;
+                 }
+                 @font-face {
+                    font-family: "HelveticaNeueCyr";  
+                    src: url("..//HelveticaNeueCyr-Medium.ttf"); 
+                    font-style: normal; 
+                    font-weight: 400;
+                     }
+                     @font-face {
+                        font-family: "HelveticaNeueCyr";  
+                        src: url("..//fonts/HelveticaNeueCyr-Roman.ttf"); 
+                        font-style: normal; 
+                        font-weight: normal;
+                         }
+                         @font-face {
+                            font-family: "HelveticaNeueCyr";  
+                            src: url("..//fonts/HelveticaNeueCyr-Thin.ttf"); 
+                            font-style: normal; 
+                            font-weight: 200;
+                             }
