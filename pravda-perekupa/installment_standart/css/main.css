@@ -88,6 +88,11 @@ input{
 .TINKOFF_BTN_YELLOW:active{
     background-color: #FF2626 !important;
 }
+.price{
+    flex-direction: column;
+    align-items: center;
+}
+
 
 
 @font-face {
