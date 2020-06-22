@@ -114,7 +114,7 @@ header h2{
     margin-bottom: 60px;
 }
 .TINKOFF_BTN_YELLOW:before {
-    content: "Купить в рассрочку";
+    content: "Купить в рассрочку" !important;
 }
 .TINKOFF_BTN_YELLOW:hover{
     background-color: #FF2626 !important;
@@ -277,7 +277,7 @@ header h2{
     margin-top: 30px;
 }
 .cost_1{
-    max-height: 800px;
+    max-height: 880px;
 }
 .curator{
     background: url(..//img/bg_money.png) no-repeat center center;
