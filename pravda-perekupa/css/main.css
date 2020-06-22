@@ -275,7 +275,7 @@ header h2{
 }
 .black_section{
     background-color: #000;
-    margin-top: 120px;
+    padding-top: 120px;
     padding-bottom: 120px;
 }
 .black_section h2{
