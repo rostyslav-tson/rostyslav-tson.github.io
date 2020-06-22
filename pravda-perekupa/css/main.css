@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: Helvetica;
+    font-weight: normal;
     line-height: 119%;
 }
 html {
