@@ -16,6 +16,7 @@ input{
     display: block;
     min-height: 50px;
     padding-left: 15px;
+    width: 90%;
 }
 .btn{
     background-color: #FF4141;
