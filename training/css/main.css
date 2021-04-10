@@ -207,6 +207,8 @@ header{
 .line {
     width: 300px;
     border: 1px solid #E7E9F1;
+    margin-left: 0;
+    margin-right: 0;
 }
 .line1 {
     margin-top: 70px;
