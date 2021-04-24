@@ -136,6 +136,7 @@ a:hover{
 }
 .second_block p{
     font-weight: 400;
+    font-size: 10px;
 }
 .second_block img{
     width: 100%;
