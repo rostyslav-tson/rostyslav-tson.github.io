@@ -440,4 +440,7 @@ footer{
     .footer_line {
         width: 99%;
     }
+    .gallery_header {
+        text-align: center;
+    }
   }
