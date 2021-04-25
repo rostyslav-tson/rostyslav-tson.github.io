@@ -526,7 +526,7 @@ footer{
 
 
 /* 993px---1200px */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1199px) {
     .navbar{
         height: auto;
     }
@@ -593,6 +593,9 @@ footer{
     .footer_line {
         width: 99%;
     }
+    .hamburger-menu{
+        display: none;
+    }
   }
   /* 768px---992px */
   @media screen and (max-width: 991px) {
@@ -631,6 +634,7 @@ footer{
     }
     .copyright{
         margin-left: 0;
+        text-align: center;
     }
     .footer_line {
         width: 99%;
