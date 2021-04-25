@@ -17,7 +17,197 @@ a:hover{
     text-decoration: none;
 }
 
+
+/* скрываем чекбокс */
+#menu__toggle {
+    opacity: 0;
+  }
+  /* стилизуем кнопку */
+  .menu__btn {
+    display: flex; /* используем flex для центрирования содержимого */
+    align-items: center;  /* центрируем содержимое кнопки */
+    margin-top: -20px;
+    margin-left: 67px;
+    max-width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  /* добавляем "гамбургер" */
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 26px;
+    height: 2px;
+    background-color: #616161;
+  }
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+  }
+
+  /* контейнер меню */
+.menu__box {
+    display: none;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    text-align: center;
+    background-color: #ECEFF1;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+  }
+  /* элементы меню */
+  .menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .menu__item:hover {
+    background-color: #CFD8DC;
+  }
+
+
+  #menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    left: 0;
+  }
+
+  .menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  transition-duration: .25s;
+}
+.menu__box {
+  transition-duration: .25s;
+}
+.menu__item {
+  transition-duration: .25s;
+}
+
+
+
+.icon {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    width: 233px;
+    height: 236px;
+    border-radius: 60px;
+    overflow: hidden;
+}
+.icon::before, .icon::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 233px;
+    width: 233px;
+    transition: all 0.25s ease;
+    border-radius: 200px;
+}
+.icon i {
+    position: relative;
+    color: #fff;
+    font-size: 30px;
+    margin-top: 15px;
+    transition: all 0.25s ease;
+}
+.icon-fill::before {
+    transition-duration: 0.5s;
+}
+.icon-fill:hover::before {
+    box-shadow: inset 0 0 0 120px #e5e5e5;
+}
+.icon-enter::after {
+    box-shadow: inset 0 0 0 1px #eb9532;
+}
+.icon-enter::before {
+    border-radius: 0;
+    margin-left: -100%;
+    box-shadow: inset 0 0 0 60px #eb9532;
+}
+.icon-enter:hover::before {
+    margin-left: 0;
+}
+.icon-expand::after {
+    box-shadow: inset 0 0 0 1px #c82647;
+}
+.icon-expand::before {
+    background: #c82647;
+    box-shadow: inset 0 0 0 60px #2d2c3e;
+}
+.icon-expand:hover::before {
+    box-shadow: inset 0 0 0 1px #2d2c3e;
+}
+.icon-collapse::before {
+    border-radius: 0;
+}
+.icon-collapse:hover::before {
+    box-shadow: inset 0 30px 0 0 #8cc63f, inset 0 -30px 0 0 #8cc63f;
+}
+.icon-collapse::after {
+    box-shadow: inset 0 0 0 1px #8cc63f;
+}
+.icon-rotate {
+    box-shadow: inset 0 0 0 1px #7e3661;
+}
+.icon-rotate::after, .icon-rotate::before {
+    border: 0px solid transparent;
+}
+.icon-rotate:hover::before {
+    transition: border-top-width 0.3s ease, border-top-color 0.3s ease;
+    border-width: 60px;
+    border-top-color: #7e3661;
+}
+.icon-rotate:hover::after {
+    transition: border-left-width 0.3s ease, border-left-color 0.3s ease;
+    border-width: 60px;
+    border-left-color: #7e3661;
+}
+.icon-rotate:hover {
+    transition: background 0.001s ease 0.3s;
+    background: #7e3661;
+}
+.icon-rotate i {
+    z-index: 1;
+}
+
+
+
+
+
 /* FIRST MENU */
+.first_menu_item{
+    margin-left: 69px;
+    border-left: 1px solid #cacaca;
+}
 .logo{
     max-height: 25px;
 }
@@ -48,7 +238,8 @@ a:hover{
 }
 .search_icon{
     border-left: 1px solid #cacaca;
-    padding-left: 70px;
+    padding-left: 60px;
+    padding-right: 60px;
     margin-left: 15px;
 }
 .nav-item{
@@ -84,7 +275,7 @@ a:hover{
 }
 .menu_lamp{
     background-color: #000000;
-    width: 181px;
+    width: 243px;
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -103,11 +294,12 @@ a:hover{
 .first_block p{
     font-weight: 400;
     font-size: 10px;
+    margin-left: 52px;
 }
 .block_line{
     color: #000;
     width: 100%;
-    margin-left: 67px;
+    margin-left: 41px;
 }
 .first_block_cards{
     max-width: 1200px;
@@ -137,6 +329,7 @@ a:hover{
 .second_block p{
     font-weight: 400;
     font-size: 10px;
+    margin-left: 52px;
 }
 .second_block img{
     width: 100%;
