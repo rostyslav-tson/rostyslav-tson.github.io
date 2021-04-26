@@ -208,7 +208,7 @@ a:hover{
     border-left: 1px solid #cacaca;
 }
 .logo{
-    max-height: 25px;
+    width: 150px;
 }
 .logo_for_mobile{
     display: none;
