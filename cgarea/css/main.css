@@ -242,6 +242,9 @@ a:hover, a{
     padding-right: 60px;
     margin-left: 15px;
 }
+.nav-link{
+    transition-duration: .25s;
+}
 
 #wrap {
     display: inline-block;
