@@ -734,11 +734,38 @@ footer{
     .hamburger-menu{
         display: none;
     }
+    .navbar-brand{
+        margin-left: auto;
+    }
+    .sign_in{
+        border: none;
+    }
+    input[type="text"]:focus {
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    input[type="submit"]{
+        margin-right: 0;
+    }
+    input[type="text"]{
+        padding-right: 20px;
+    }
+    .search_icon{
+        margin-left: 200px;
+    }
+    #wrap{
+        width: 200px;
+        margin: 0 auto;
+    }
   }
   /* 768px---992px */
   @media screen and (max-width: 991px) {
       .gallery_header {
         width: 750px;
+      }
+      .first_block_card {
+          max-width: 230px;
       }
   }
   /* 577px---768px */
