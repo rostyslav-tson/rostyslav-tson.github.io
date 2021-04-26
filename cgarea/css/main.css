@@ -141,7 +141,7 @@ a:hover, a{
     transition-duration: 0.5s;
 }
 .icon-fill:hover::before {
-    box-shadow: inset 0 0 0 120px #e5e5e5;
+    box-shadow: inset -10px 0 0 60px #e5e5e5;
 }
 .icon-enter::after {
     box-shadow: inset 0 0 0 1px #eb9532;
