@@ -540,19 +540,19 @@ h3{
 }
 
 .gallery_1{
-    background-image: url('..//img/1 photo.jpg');
+    background-image: linear-gradient(to top, rgba(0,0,0, 0.8), rgba(255,255,255, 0)), url('..//img/1 photo.jpg');
 }
 .gallery_2{
-    background-image: url('..//img/2 photo.jpg');
+    background-image: linear-gradient(to top, rgba(0,0,0, 0.8), rgba(255,255,255, 0)), url('..//img/2 photo.jpg');
 }
 .gallery_3{
-    background-image: url('..//img/3 photo.jpg');
+    background-image: linear-gradient(to top, rgba(0,0,0, 0.8), rgba(255,255,255, 0)), url('..//img/3 photo.jpg');
 }
 .gallery_4{
-    background-image: url('..//img/4 photo.jpg');
+    background-image: linear-gradient(to top, rgba(0,0,0, 0.8), rgba(255,255,255, 0)), url('..//img/4 photo.jpg');
 }
 .gallery_5{
-    background-image: url('..//img/5 photo.jpg');
+    background-image: linear-gradient(to top, rgba(0,0,0, 0.8), rgba(255,255,255, 0)), url('..//img/5 photo.jpg');
 }
 .text_icon_box{
     width: 100%;
