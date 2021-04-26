@@ -117,18 +117,18 @@ a:hover, a{
     cursor: pointer;
     position: relative;
     display: inline-block;
-    width: 236px;
-    height: 236px;
+    width: 118px;
+    height: 118px;
     border-radius: 100%;
     overflow: hidden;
 }
 .icon::before, .icon::after {
     content: '';
     position: absolute;
-    top: -10px;
+    top:  -5px;
     left: 0;
-    height: 236px;
-    width: 236px;
+    height: 118px;
+    width: 118px;
     transition: all 0.25s ease;
     border-radius: 100%;
 }
@@ -278,19 +278,20 @@ a:hover, a{
 .menu_lamp{
     background-color: #000000;
     width: 243px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 .menu_2 .menu_active{
     color: #fff;
 }
 
+
 /* END SECOND MENU */
 
 /* FIRST BLOCK */
 .first_block{
-    padding-top: 30px;
-    padding-bottom: 27px;
+    padding-top: 27px;
+    padding-bottom: 5px;
     background: #f3f3f3;
 }
 .first_block p{
@@ -321,7 +322,9 @@ a:hover, a{
 }
 .first_block_card{
     text-align: center;
+    max-width: 260px;
 }
+
 .first_block_icon img{
     max-width: 50px;
 }
@@ -329,7 +332,7 @@ a:hover, a{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 10px solid #e5e5e5;
+    border: 5px solid #e5e5e5;
     border-radius: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -349,7 +352,7 @@ a:hover, a{
 }
 .second_block img{
     width: 100%;
-    margin-top: 40px;
+    margin-top: 26px;
 }
 .second_block .col{
     padding: 0;
@@ -378,6 +381,10 @@ a:hover, a{
 .gallery_header p{
     font-size: 25px;
     font-weight: 400;
+}
+.gallery_photo{
+    width: 200px;
+    height: 200px;
 }
 .caption{
     text-align: center;
@@ -540,7 +547,33 @@ footer{
 
 /*-- Adaptive--------------------------------------------------*/
 
-
+/* 994px---1800px */
+@media screen and (max-width: 4000px) {
+    .menu_2_first_item{
+        margin-left: 17px;
+    }
+    .menu_2_last_item{
+        margin-right: 70px !important;
+    }
+    .menu_2 a{
+        margin-right: 50px;
+    }
+    .search_icon{
+        margin-right: 15px;
+    }
+}
+/* 994px---1800px */
+@media screen and (max-width: 1800px) {
+    .menu_2_first_item{
+        margin-left: auto;
+    }
+    .menu_2_last_item{
+        margin-right: auto !important;
+    }
+    .menu_2 a{
+        margin-right: auto;
+    }
+}
 /* 993px---1200px */
 @media screen and (max-width: 1199px) {
     .navbar{
