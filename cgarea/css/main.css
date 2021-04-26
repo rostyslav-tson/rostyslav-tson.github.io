@@ -244,6 +244,10 @@ a:hover, a{
 .nav-item{
     display: flex;
     align-items: center;
+    transition-duration: .3s;
+}
+.nav-item:hover{
+    background-color: #f3f3f3;
 }
 .menu_btn{
     padding-right: 20px;
@@ -602,6 +606,7 @@ footer{
         margin-left: auto !important;
         margin-right: auto !important;
         border: none;
+        
     }
     .logo_for_mobile{
         display: block;
