@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="color-0">
+      <stop style="stop-color: rgb(31, 171, 166);"/>
+    </linearGradient>
+  </defs>
+  <path style="stroke: rgb(0, 0, 0); fill: rgb(31, 171, 166);" d="M 48.752 104.514"/>
+  <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 66.304 104.515"/>
+  <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 78.445 134.743"/>
+  <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 48.644 104.515"/>
+  <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 60.784 134.743"/>
+  <g transform="matrix(0.158337, 0, 0, -0.158337, -38.759624, 631.998718)" fill="#000000" stroke="none" style="">
+    <g transform="matrix(0.631564, 0, 0, 0.631564, -4707.642578, -2614.624756)" fill="#000000" stroke="none">
+      <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 8280.677 9341.516"/>
+      <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 8016.885 9402.308"/>
+      <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 8173.451 9414.763"/>
+      <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 8294.854 9112.484"/>
+      <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 8173.449 9414.767"/>
+      <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 8382.961 9319.826"/>
+      <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 8265.696 9379.344"/>
+      <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 8384.166 9084.367"/>
+      <g transform="matrix(0.304724, 0, 0, 0.298848, 7474.564453, 5664.043457)" fill="#000000" stroke="none" style="">
+        <g transform="matrix(1.102921, 0, 0, 1.100755, -959.390015, -732.216797)" fill="#000000" stroke="none">
+          <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 35.368 103.375" transform="matrix(29.754255, 0, 0, -30.398991, 3568.479892, 15944.943384)"/>
+          <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 0 99.162" transform="matrix(29.754255, 0, 0, -30.398991, 4982.054965, 14897.974634)"/>
+          <g transform="matrix(4.449027, 0, 0, 4.545431, 1417.935913, -3323.695068)" fill="#000000" stroke="none" style="">
+            <g transform="matrix(0.631564, 0, 0, 0.631564, -4707.642578, -2614.624756)" fill="#000000" stroke="none">
+              <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 8280.677 9341.516"/>
+              <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 8016.885 9402.308"/>
+              <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 8173.451 9414.763"/>
+              <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 8294.854 9112.484"/>
+              <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 8173.449 9414.767"/>
+              <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 8382.961 9319.826"/>
+              <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 8265.696 9379.344"/>
+              <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 8384.166 9084.367"/>
+              <g transform="matrix(1.545121, 0, 0, 1.545121, 7563.568359, 4231.925293)" fill="#000000" stroke="none" style="">
+                <g transform="matrix(0.631564, 0, 0, 0.631564, -4707.642578, -2614.624756)" fill="#000000" stroke="none">
+                  <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 8280.677 9341.516"/>
+                  <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 8016.885 9402.308"/>
+                  <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 8173.451 9414.763"/>
+                  <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 8294.854 9112.484"/>
+                  <g transform="matrix(1.538625, 0, 0, 1.538625, 7534.930664, 4247.550293)" fill="#000000" stroke="none" style="">
+                    <g transform="matrix(0.631564, 0, 0.000111, 0.631564, -4708.52832, -2614.624756)" fill="#000000" stroke="none" style="">
+                      <path style="stroke: rgb(0, 0, 0); fill: rgb(31, 171, 166);" d="M 7569.285 9577.716"/>
+                      <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" d="M 5293.237 9836.277"/>
+                      <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" d="M 5428.863 9498.732"/>
+                      <g transform="matrix(1.76815, 0, -0.000311, 1.76815, 6792.576172, 3687.288574)" fill="#000000" stroke="none" style="">
+                        <g transform="matrix(0.631564, 0, 0, 0.631564, -4707.642578, -2614.624756)" fill="#000000" stroke="none">
+                          <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 8280.677 9341.516"/>
+                          <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 8016.885 9402.308"/>
+                          <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 8173.451 9414.763"/>
+                          <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 8294.854 9112.484"/>
+                          <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 8173.449 9414.767"/>
+                          <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 8382.961 9319.826"/>
+                          <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 8265.696 9379.344"/>
+                          <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 8384.166 9084.367"/>
+                          <path style="stroke: rgb(0, 0, 0); fill: rgb(31, 171, 166);" d="M 8347.911 9422.088"/>
+                          <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 8523.431 9422.078"/>
+                          <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 8644.841 9119.798"/>
+                          <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 8346.831 9422.078"/>
+                          <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 8468.231 9119.798"/>
+                          <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 8195.671 9901.598"/>
+                          <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 8195.671 9901.598"/>
+                          <g transform="matrix(1.58337, 0, 0, 1.583371, 7632.731934, 4147.234863)" fill="#000000" stroke="none" style="">
+                            <g transform="matrix(0.631564, 0, 0, 0.631564, -4707.642578, -2614.624756)" fill="#000000" stroke="none">
+                              <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 8280.677 9341.516"/>
+                              <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 8016.885 9402.308"/>
+                              <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 8173.451 9414.763"/>
+                              <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 8294.854 9112.484"/>
+                              <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 8173.449 9414.767"/>
+                              <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 8382.961 9319.826"/>
+                              <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 8265.696 9379.344"/>
+                              <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 8384.166 9084.367"/>
+                              <g transform="matrix(0.304724, 0, 0, 0.298848, 7474.564453, 5664.043457)" fill="#000000" stroke="none" style="">
+                                <g transform="matrix(1.102921, 0, 0, 1.100755, -959.390015, -732.216797)" fill="#000000" stroke="none">
+                                  <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 35.368 103.375" transform="matrix(29.754255, 0, 0, -30.398991, 3568.479892, 15944.943384)"/>
+                                  <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 0 99.162" transform="matrix(29.754255, 0, 0, -30.398991, 4982.054965, 14897.974634)"/>
+                                  <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 4704.223 12067.001"/>
+                                  <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 5065.449 11148.103"/>
+                                  <g transform="matrix(4.7112, 0, 0, 4.813285, 2563.381104, -3967.982422)" fill="#000000" stroke="none" style="">
+                                    <g transform="matrix(0.631564, 0, 0, 0.631564, -4707.642578, -2614.624756)" fill="#000000" stroke="none">
+                                      <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 8280.677 9341.516"/>
+                                      <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 8016.885 9402.308"/>
+                                      <g transform="matrix(1.170113, 0, 0, 1.170113, 8482.695313, 5139.725098)" fill="#000000" stroke="none" style="">
+                                        <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M -618.293 3583.457"/>
+                                        <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M -520.341 3339.569"/>
+                                        <g transform="matrix(1.277512, 0, 0, 1.277512, -1198.81311, -672.447632)" fill="#000000" stroke="none" style="">
+                                          <g transform="matrix(0.631564, 0, 0, 0.631564, -4707.642578, -2614.624756)" fill="#000000" stroke="none">
+                                            <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 8280.677 9341.516"/>
+                                            <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 8016.885 9402.308"/>
+                                            <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 8173.451 9414.763"/>
+                                            <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 8294.854 9112.484"/>
+                                            <path style="stroke: rgb(0, 0, 0); fill: url(#color-0);" d="M 8173.449 9414.767"/>
+                                            <g transform="matrix(1.517547, 0, 0, 1.517547, 7456.723145, 4587.967773)" fill="#000000" stroke="none" style="">
+                                              <g transform="matrix(0.631564, 0, 0, 0.631564, -4707.642578, -2614.624756)" fill="#000000" stroke="none">
+                                                <g transform="matrix(1, 0, 0, 1, 7391.177246, 4796.641602)" fill="#000000" stroke="none">
+                                                  <path d="M1050 4980 c-20 -20 -20 -33 -20 -689 0 -661 0 -669 21 -695 l20 -26 543 0 543 0 21 23 22 23 0 672 c0 659 0 672 -20 692 -20 20 -33 20 -565 20 -532 0 -545 0 -565 -20z m1020 -695 l0 -585 -455 0 -455 0 0 585 0 585 455 0 455 0 0 -585z" style="fill: url(#color-0);"/>
+                                                  <path d="M1340 4733 c-8 -3 -23 -12 -32 -21 -17 -14 -18 -47 -18 -433 l0 -418 27 -20 c28 -23 54 -21 86 7 16 14 17 45 17 388 l0 374 246 2 247 3 19 26 c24 32 11 75 -27 89 -27 10 -538 13 -565 3z" style="fill: url(#color-0);"/>
+                                                  <path d="M3637 4982 c-10 -10 -17 -32 -17 -48 0 -25 46 -75 320 -349 l320 -320 0 -672 0 -673 -579 -2 c-568 -3 -580 -3 -607 -24 l-28 -20 -42 23 -42 23 -774 -2 -774 -3 -35 -24 c-19 -13 -46 -40 -60 -60 -23 -35 -24 -43 -27 -233 l-4 -198 -237 0 c-225 0 -238 -1 -259 -20 l-22 -21 0 -674 c0 -662 0 -675 20 -695 14 -14 33 -20 65 -20 l45 0 0 -100 c0 -109 10 -142 47 -159 25 -12 261 -15 301 -5 39 11 52 53 52 164 l0 100 1750 0 1750 0 0 -97 c0 -121 5 -140 41 -158 29 -15 258 -22 307 -9 39 11 52 53 52 164 l0 100 45 0 c32 0 51 6 65 20 20 20 20 33 20 686 l0 666 -29 29 -29 29 -241 0 -240 0 -3 198 -3 199 -29 41 c-46 67 -90 82 -234 82 l-122 0 0 672 0 673 319 320 c176 176 322 329 325 341 4 13 -1 30 -15 47 l-20 27 -678 0 c-644 0 -679 -1 -694 -18z m950 -359 l-247 -248 -247 248 -248 247 495 0 495 0 -248 -247z m-1649 -1834 c20 -7 34 -21 41 -41 7 -20 11 -196 11 -514 l0 -484 -778 0 -779 0 -7 489 c-6 431 -5 493 8 520 9 16 26 32 38 34 53 10 1436 7 1466 -4z m1681 0 c19 -7 36 -22 42 -36 5 -14 9 -237 9 -514 l0 -489 -780 0 -780 0 0 498 c0 537 0 535 53 545 12 2 337 5 723 6 496 1 710 -2 733 -10z m-3329 -779 l0 -260 -195 0 -195 0 0 260 0 260 195 0 195 0 0 -260z m3900 0 l0 -260 -195 0 -195 0 0 260 0 260 195 0 195 0 0 -260z m0 -650 l0 -260 -2145 0 -2145 0 0 260 0 260 2145 0 2145 0 0 -260z m-4030 -455 l0 -65 -65 0 -65 0 0 65 0 65 65 0 65 0 0 -65z m3900 0 l0 -65 -65 0 -65 0 0 65 0 65 65 0 65 0 0 -65z" style="fill: url(#color-0);"/>
+                                                </g>
+                                              </g>
+                                            </g>
+                                          </g>
+                                        </g>
+                                      </g>
+                                    </g>
+                                  </g>
+                                </g>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
