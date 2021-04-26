@@ -356,9 +356,11 @@ a:hover, a{
 }
 .menu_2 a, .menu_lamp p{
     color: #939393;
+    transition-duration: .25s;
 }
 .menu_2 a:hover{
     color: #fff;
+    
 }
 .menu_lamp{
     background-color: #1B1B1B;
