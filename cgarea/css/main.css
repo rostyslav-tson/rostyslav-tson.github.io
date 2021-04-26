@@ -13,7 +13,7 @@ p{
     font-weight: 300;
     color: #000;
 }
-a:hover{
+a:hover, a{
     text-decoration: none;
 }
 
@@ -297,6 +297,7 @@ a:hover{
     font-weight: 400;
     font-size: 10px;
     margin-left: 52px;
+    color: #999999;
 }
 .block_line{
     color: #000;
@@ -344,6 +345,7 @@ a:hover{
     font-weight: 400;
     font-size: 10px;
     margin-left: 52px;
+    color: #999999;
 }
 .second_block img{
     width: 100%;
