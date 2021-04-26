@@ -10,7 +10,7 @@ p{
     margin: 0 ;
 }
 .btn, p, a{
-    font-weight: 300;
+    font-weight: 400;
     color: #000;
 }
 a:hover, a{
@@ -135,7 +135,6 @@ a:hover, a{
 .icon i {
     position: relative;
     font-size: 30px;
-    margin-top: 15px;
     transition: all 0.25s ease;
 }
 .icon-fill::before {
@@ -263,6 +262,9 @@ a:hover, a{
 .sign_in img{
     max-width: 30px;
 }
+.search_icon{
+    height: 68px;
+}
 
 /* END FIRST MENU */
 
@@ -300,7 +302,7 @@ a:hover, a{
 }
 .first_block p{
     font-weight: 400;
-    font-size: 10px;
+    font-size: 11px;
     margin-left: 52px;
     color: #999999;
 }
@@ -631,7 +633,6 @@ footer{
         padding: 0;
         padding-top: 20px;
     }
-
     .first_block_cards{
         justify-content: center;
     }
