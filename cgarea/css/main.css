@@ -117,24 +117,23 @@ a:hover{
     cursor: pointer;
     position: relative;
     display: inline-block;
-    width: 233px;
+    width: 236px;
     height: 236px;
-    border-radius: 60px;
+    border-radius: 100%;
     overflow: hidden;
 }
 .icon::before, .icon::after {
     content: '';
     position: absolute;
-    top: 0;
+    top: -10px;
     left: 0;
-    height: 233px;
-    width: 233px;
+    height: 236px;
+    width: 236px;
     transition: all 0.25s ease;
-    border-radius: 200px;
+    border-radius: 100%;
 }
 .icon i {
     position: relative;
-    color: #fff;
     font-size: 30px;
     margin-top: 15px;
     transition: all 0.25s ease;
@@ -257,6 +256,9 @@ a:hover{
     margin: 0;
     height: 65px;
 }
+.sign_in img{
+    max-width: 30px;
+}
 
 /* END FIRST MENU */
 
@@ -318,6 +320,18 @@ a:hover{
 }
 .first_block_card{
     text-align: center;
+}
+.first_block_icon img{
+    max-width: 50px;
+}
+.icon-fill{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 10px solid #e5e5e5;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 /* END FIRST BLOCK */
 

@@ -1,0 +1,22 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG Editor - http://github.com/mzalive/SVG Editor/ -->
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="402" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="1" x="1" height="400" width="580"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <line stroke-width="15" stroke-linecap="null" stroke-linejoin="null" id="svg_38" y2="183.333333" x2="403.769848" y1="104.444444" x1="317.103181" stroke-opacity="null" stroke="null" fill="none"/>
+  <metadata transform="matrix(0.12530346840622375,0,0,0.12530346840622375,0,0) ">Created by potrace 1.16, written by Peter Selinger 2001-2019</metadata>
+  <g stroke="null" id="svg_47">
+   <g id="svg_44" fill="#000000" transform="matrix(0.0599416280425766,0,0,-0.0599416280425766,-658.6865258063463,-517.6506000549299) ">
+    <path stroke="null" id="svg_45" d="m13114.545659,-9882.49083l1390,0l1390,0l0,-2090l0,-2090l-1390,0l-1390,0l0,-170l0,-170l1560,0l1560,0l0,2430l0,2430l-1560,0l-1560,0l0,-340z"/>
+    <path stroke="null" id="svg_46" d="m13981.212326,-10932.490829l-120,-120l375,-375l375,-375l-1098,0l-1097,0l0,-170l0,-170l1097,0l1098,0l-378,-378l-379,-379l121,-114c67,-63 125,-115 129,-117c4,-1 267,258 584,575l578,578l-576,583c-317,320 -579,582 -582,582c-4,0 -61,-54 -127,-120z"/>
+   </g>
+  </g>
+ </g>
+</svg>
