@@ -293,10 +293,10 @@ h3{
     background: #f3f3f3;
   }
   input[type="submit"] {
-    width: 50px;
-    height: 50px;
-    margin-right: 75px;
-    margin-top: 8px;
+    width: 35px;
+    height: 35px;
+    margin-right: 67px;
+    margin-top: 15px;
     display: inline-block;
     color:red;
     float: right;
@@ -712,7 +712,7 @@ footer{
         margin-right: 70px !important;
     }
     .menu_2 a{
-        margin-right: 50px;
+        padding-right: 50px;
     }
     .search_icon{
         margin-right: 15px;
@@ -721,13 +721,13 @@ footer{
 /* 994px---1800px */
 @media screen and (max-width: 1800px) {
     .menu_2_first_item{
-        margin-left: auto;
+        margin-left: 10px;
     }
     .menu_2_last_item{
         margin-right: auto !important;
     }
     .menu_2 a{
-        margin-right: auto;
+        padding-right: 15px;
     }
 }
 /* 993px---1200px */
