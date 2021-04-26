@@ -256,7 +256,7 @@ a:hover{
     margin: 0;
     height: 65px;
 }
-.sign_in img{
+.sign_in img, .search_icon img{
     max-width: 30px;
 }
 
