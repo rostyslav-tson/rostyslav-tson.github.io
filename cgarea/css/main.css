@@ -365,6 +365,7 @@ h3{
 .menu_2 a, .menu_lamp p{
     color: #939393;
     transition-duration: .3s;
+    
 }
 .menu_2 a:hover{
     color: #fff;
