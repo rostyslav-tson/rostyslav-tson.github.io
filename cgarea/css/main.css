@@ -9,9 +9,10 @@ body {
 p{
     margin: 0 ;
 }
-.btn, p, a{
+.btn, p, a, .navbar-light .navbar-nav .nav-link{
     font-weight: 400;
     color: #000;
+    font-size: 14px;
 }
 a:hover, a{
     text-decoration: none;
