@@ -359,7 +359,7 @@ h3{
     background-color: #252525;
     color: #939393;
     padding-left: 0;
-    height: 65px;
+    height: 67px;
     
 }
 .menu_2 a, .menu_lamp p{
@@ -720,7 +720,7 @@ footer{
     }
 }
 /* 994px---1800px */
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 1850px) {
     .menu_2_first_item{
         margin-left: 10px;
     }
