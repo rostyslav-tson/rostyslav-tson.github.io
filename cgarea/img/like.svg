@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <g style="shape-rendering: geometricprecision;">
+    <g>
+      <g transform="matrix(1, 0, 0, 1, -14.600959, -11.351256)"/>
+    </g>
+    <g transform="matrix(1.403197, 0, 0, 1.462725, 16.443884, 16.275372)" style="">
+      <path class="fil0" d="M54 154l64 74 187 -222c14,-15 36,1 25,18l-184 281c-14,18 -33,20 -49,2l-93 -111c-18,-26 28,-63 50,-42z" style="fill: rgb(255, 255, 255);"/>
+    </g>
+  </g>
+</svg>
