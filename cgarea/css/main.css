@@ -438,7 +438,6 @@ h3{
 /* SECOND BLOCK */
 .second_block{
     background: #f3f3f3;
-    padding-bottom: 50px;
 }
 .second_block p{
     font-weight: 400;
@@ -464,7 +463,7 @@ h3{
 
 /* GALLERY */
 .gallery{
-    margin-top: 50px;
+    margin-top: 40px;
 }
 .block_line_left{
     margin-right: 40px;
@@ -498,7 +497,7 @@ h3{
 .container_block_gallery{
     background: #f3f3f3;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 24px;
 }
 .container_block_gallery img{
     vertical-align: top;
@@ -507,14 +506,23 @@ h3{
     margin-right: auto;
 }
 .cards{
-    margin-top: 50px;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-top: 67px;
+    margin-left: 67px;
+    margin-right: 67px;
 }
 .card{
     background: none;
     border: none;
     text-align: center;
+    padding-left: 17px;
+    padding-right: 17px;
+}
+.card-body{
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+.card-title{
+    margin-bottom: 5px;
 }
 .card h5{
     font-size: 15px;
@@ -574,14 +582,41 @@ h3{
 .text_icon h3{
     margin-bottom: 0;
 }
-
- 
 .text_icon {
     display: none;
 }
   
 .text_icon_box:hover .text_icon {
     display: flex;
+}
+
+.gallery_icon_interier{
+    background: url('..//img/col/Интерьер.svg');
+}
+.gallery_icon_modeling{
+    background: url('..//img/col/Моделинг.svg');
+}
+.gallery_icon_objects{
+    background: url('..//img/col/Объекты.svg');
+}
+.gallery_icon_person{
+    background: url('..//img/col/Персонаж.svg');
+}
+.gallery_icon_transport{
+    background: url('..//img/col/Транспорт.svg');
+}
+.gallery_icon_exterier{
+    background: url('..//img/col/Экстерьер.svg');
+}
+.gallery_icons{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    margin-top: auto;
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
 }
 /* END GALLERY */
 
@@ -845,8 +880,10 @@ footer{
         margin-top: 40px;
     }
     .container_block_gallery img{
-        max-width: 80%;
+       
         height: auto;
+        width: 329px;
+        max-width: 80%;
     }
   
   }
