@@ -566,7 +566,7 @@ h3{
 }
 .status{
     position: absolute;
-    bottom: 100px;
+    bottom: 90px;
     left: 0;
     right: 0; 
     display: flex;  
@@ -580,7 +580,7 @@ h3{
 .card_1:hover .status, .card_2:hover .status, .card_3:hover .status, .card_4:hover .status, .card_5:hover .status, .card_6:hover .status, .card_7:hover .status, .card_8:hover .status, .card_9:hover .status, .card_10:hover .status, .card_11:hover .status, .card_12:hover .status, .card_13:hover .status, .card_14:hover .status, .card_15:hover .status, .card_16:hover .status, .card_17:hover .status, .card_18:hover .status, .card_19:hover .status, .card_20:hover .status, .card_21:hover .status, .card_22:hover .status, .card_23:hover .status, .card_24:hover .status, .card_25:hover .status{
     display: flex;
     visibility: visible;
-    bottom: 110px;
+    bottom: 94px;
     opacity: 1;
 
 }
@@ -588,12 +588,17 @@ h3{
     background: #000;
     color: #fff;
     text-align: center;
-    padding: 10px;
-    font-size: 10px;
+    padding: 2px;
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-top: 3px;
+    font-size:7px;
+    height: 15px;
 }
 .wishlist, .like{
     background: #555555;
-    padding: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 .wishlist img, .like img{
     width: 15px;
