@@ -511,6 +511,7 @@ h3{
     height: 329px;
     object-fit:cover;
 }
+
 .cards{
     margin-top: 67px;
     margin-left: 67px;
@@ -543,7 +544,55 @@ h3{
 .card-img, .card-img-top{
     border-radius: 0%;
 }
-
+.profi:before{
+    content:"PROFI";
+}
+.coll:before{
+    content:"Coll";
+}
+.sell:before{
+    content:"Sell";
+}
+.free:before{
+    content:"Free";
+}
+.brand:before{
+    content:"Brand";
+}
+.top_sale:before{
+    content:"Топ Продажы";
+}
+.status_bottom{
+    font-size: 15px;
+    font-weight: 400;
+    color: #b1b1b1;
+}
+.status{
+    position: absolute;
+    bottom: 110px;
+    left: 0;
+    right: 0; 
+    display: none;  
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
+.card_1:hover .status, .card_2:hover .status, .card_3:hover .status, .card_4:hover .status, .card_5:hover .status, .card_6:hover .status, .card_7:hover .status, .card_8:hover .status, .card_9:hover .status, .card_10:hover .status, .card_11:hover .status, .card_12:hover .status, .card_13:hover .status, .card_14:hover .status, .card_15:hover .status, .card_16:hover .status, .card_17:hover .status, .card_18:hover .status, .card_19:hover .status, .card_20:hover .status, .card_21:hover .status, .card_22:hover .status, .card_23:hover .status, .card_24:hover .status, .card_25:hover .status{
+    display: flex;
+}
+.quick_look{
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+.wishlist, .like{
+    background: #555555;
+    padding: 10px;
+}
+.wishlist img, .like img{
+    max-width: 21px;
+}
 .gallery_template{
     background-repeat: no-repeat;
     background-size: cover;
