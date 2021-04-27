@@ -570,7 +570,7 @@ h3{
     left: 0;
     right: 0; 
     display: flex;  
-    visibility: hidden;
+    visibility: visible;
     justify-content: center;
     align-items: center;
     height: 30px;
@@ -589,14 +589,15 @@ h3{
     color: #fff;
     text-align: center;
     padding: 10px;
+    font-size: 10px;
 }
 .wishlist, .like{
     background: #555555;
     padding: 10px;
 }
 .wishlist img, .like img{
-    width: 21px;
-    height: 21px;
+    width: 15px;
+    height: 15px;
 }
 .gallery_template{
     background-repeat: no-repeat;
