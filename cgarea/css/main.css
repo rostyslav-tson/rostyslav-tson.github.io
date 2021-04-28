@@ -11,7 +11,7 @@ p{
 }
 .btn, p, a, .navbar-light .navbar-nav .nav-link{
     font-weight: 400;
-    color: #000;
+    color: #1b1b1b;
     font-size: 14px;
 }
 a:hover, a{
@@ -397,7 +397,7 @@ h3{
     color: #999999;
 }
 .block_line{
-    color: #000;
+    color: #1b1b1b;
     width: 100%;
     margin-left: 41px;
 }
@@ -450,7 +450,7 @@ h3{
     height: 496px;
     margin-top: 26px;
     object-fit:cover;
-    background: #000;
+    background: #1b1b1b;
 }
 .second_block img:hover{
     opacity: 0.3;
@@ -526,7 +526,7 @@ h3{
 }
 .card-body{
     padding-top: 28px;
-    padding-bottom: 28px;
+    padding-bottom: 38px;
 }
 .card-title{
     margin-bottom: 5px;
@@ -559,14 +559,21 @@ h3{
 .brand:before{
     content:"Brand";
 }
-.status_bottom{
+.status_card::before{
+    content:"В корзину"
+}
+.status_bottom, .status_card{
     font-size: 15px;
     font-weight: 400;
     color: #b1b1b1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    transition-duration: 0.4s;
 }
 .status{
     position: absolute;
-    bottom: 98px;
+    bottom: 95px;
     left: 0;
     right: 0; 
     display: flex;  
@@ -574,12 +581,19 @@ h3{
     justify-content: center;
     align-items: center;
     height: 23px;
-    transition-duration: 0.25s;
+    transition-duration: 0.4s;
     opacity: 0;
     max-width: 135px;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid black;
+    border: 1px solid #1b1b1b;
+}
+.status_card{
+    opacity: 0;
+    right: 50px;
+}
+.status_card:hover{
+    color: #1b1b1b;
 }
 .card_1:hover .status, .card_2:hover .status, .card_3:hover .status, .card_4:hover .status, .card_5:hover .status, .card_6:hover .status, .card_7:hover .status, .card_8:hover .status, .card_9:hover .status, .card_10:hover .status, .card_11:hover .status, .card_12:hover .status, .card_13:hover .status, .card_14:hover .status, .card_15:hover .status, .card_16:hover .status, .card_17:hover .status, .card_18:hover .status, .card_19:hover .status, .card_20:hover .status, .card_21:hover .status, .card_22:hover .status, .card_23:hover .status, .card_24:hover .status, .card_25:hover .status{
     display: flex;
@@ -588,8 +602,20 @@ h3{
     opacity: 1;
 
 }
+
+.card_1:hover .status_bottom, .card_2:hover .status_bottom, .card_3:hover .status_bottom, .card_4:hover .status_bottom, .card_5:hover .status_bottom, .card_6:hover .status_bottom, .card_7:hover .status_bottom, .card_8:hover .status_bottom, .card_9:hover .status_bottom, .card_10:hover .status_bottom, .card_11:hover .status_bottom, .card_12:hover .status_bottom, .card_13:hover .status_bottom, .card_14:hover .status_bottom, .card_15:hover .status_bottom, .card_16:hover .status_bottom, .card_17:hover .status_bottom, .card_18:hover .status_bottom, .card_19:hover .status_bottom, .card_20:hover .status_bottom, .card_21:hover .status_bottom, .card_22:hover .status_bottom, .card_23:hover .status_bottom, .card_24:hover .status_bottom, .card_25:hover .status_bottom{
+    right: -50px;
+    opacity: 0;
+}
+
+.card_1:hover .status_card, .card_2:hover .status_card, .card_3:hover .status_card, .card_4:hover .status_card, .card_5:hover .status_card, .card_6:hover .status_card, .card_7:hover .status_card, .card_8:hover .status_card, .card_9:hover .status_card, .card_10:hover .status_card, .card_11:hover .status_card, .card_12:hover .status_card, .card_13:hover .status_card, .card_14:hover .status_card, .card_15:hover .status_card, .card_16:hover .status_card, .card_17:hover .status_card, .card_18:hover .status_card, .card_19:hover .status_card, .card_20:hover .status_card, .card_21:hover .status_card, .card_22:hover .status_card, .card_23:hover .status_card, .card_24:hover .status_card, .card_25:hover .status_card{
+    right: 0;
+    opacity: 1;
+}
+
+
 .quick_look{
-    background: #000;
+    background: #1b1b1b;
     color: #fff;
     text-align: center;
     padding-left: 22px;
@@ -599,13 +625,13 @@ h3{
     height: 23px;
     display: flex;
     align-items: center;
-    border: 1px solid black;
+    border: 1px solid #1b1b1b;
 }
 .wishlist, .like{
     background: #555555;
     padding-right: 5px;
     padding-left: 5px;
-    border: 1px solid black;
+    border: 1px solid #1b1b1b;
     box-sizing: border-box;
 }
 .wishlist img, .like img{
@@ -734,7 +760,7 @@ h3{
     .home-newsletter .single .btn {
     min-height: 50px; 
     border-radius: 0;
-    background: #000;
+    background: #1b1b1b;
     color: #fff;
     font-size: 10px;
     font-weight: 400;
@@ -783,10 +809,10 @@ footer{
     box-shadow: none;
 }
 .dropdown-menu, .dropdown-item{
-    background: #000;
+    background: #1b1b1b;
 }
 .dropdown-item:hover{
-    background: #000;
+    background: #1b1b1b;
 }
 .dropdown-item{
     padding-left: 5px;
@@ -855,7 +881,7 @@ footer{
         height: auto;
     }
     .navbar-toggler-icon{
-        color: #000;
+        color: #1b1b1b;
     }
     .navbar-light .navbar-toggler{
         border: none;
