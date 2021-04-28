@@ -334,6 +334,10 @@ h3{
 .navbar-collapse, .navbar-nav, .menu_btn{
     height: 100%;
 }
+.navbar-toggler{
+    margin-right: 10px;
+    margin-left: auto;
+}
 .navbar{
     padding: 0;
     margin: 0;
