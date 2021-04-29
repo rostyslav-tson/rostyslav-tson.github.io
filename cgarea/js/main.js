@@ -46,3 +46,27 @@
   function myFunction15() {
     document.getElementById("demo").innerHTML = "<img src='img/icons_menu/Скрипт.svg'>"
   }
+
+  $(function() {
+
+ $(window).scroll(function() {
+
+ if($(this).scrollTop() != 0) {
+
+ $('#toTop').fadeIn();
+ 
+ } else {
+
+ $('#toTop').fadeOut();
+
+ }
+
+ });
+ 
+ $('#toTop').click(function() {
+
+ $('body,html').animate({scrollTop:0},800);
+
+ });
+ 
+});
