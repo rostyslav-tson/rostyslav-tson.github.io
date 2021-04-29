@@ -4,7 +4,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 14px;
-    overflow-x: hidden
+    overflow-x: hidden;
 }
 p{
     margin: 0 ;
@@ -902,7 +902,20 @@ footer{
         margin-left: 0;
         margin-right: 0;
     }
+    .card_5{
+        display: none;
+    }
     
+}
+/* 1850px---4000px */
+@media screen and (max-width: 2300px) {
+    .cards{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .card_5{
+        display: block;
+    }
 }
 /* 994px---1850px */
 @media screen and (max-width: 1900px) {
@@ -918,10 +931,7 @@ footer{
     .card-img-top{
         max-width: 100%;
     }
-    .cards{
-        margin-left: 10px;
-        margin-right: 10px;
-    }
+    
 }
 /* 993px---1200px */
 @media screen and (max-width: 1199px) {
