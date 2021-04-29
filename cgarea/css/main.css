@@ -392,6 +392,9 @@ h3{
     color: #939393;
     padding-left: 0;
     height: 67px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
     
 }
 .menu_2 a, .menu_lamp p{
