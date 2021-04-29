@@ -254,6 +254,10 @@ h3{
 .search_img, .menu_btn img{
     max-height: 30px;
 }
+.navbar{
+    transition-duration: 0.3s;
+    z-index: 1;
+}
 .navbar-brand{
     margin-right: auto;
     margin-left: -50px;
@@ -393,8 +397,9 @@ h3{
     padding-left: 0;
     height: 67px;
     position: sticky;
-    top: 0;
+    top: 67px;
     z-index: 10;
+    transition-duration: 0.3s;
     
 }
 .menu_2 a, .menu_lamp p{

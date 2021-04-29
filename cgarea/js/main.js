@@ -70,3 +70,14 @@
  });
  
 });
+
+$(window).scroll(function() {
+  var top = $(document).scrollTop();
+  if (top < 300) $(".navbar").css({top: '0', position: 'sticky'});
+  else $(".navbar").css({top: '-67px', opacity: 'sticky'});
+});
+$(window).scroll(function() {
+  var top = $(document).scrollTop();
+  if (top < 300) $(".menu_2").css({top: '67px', position: 'sticky'});
+  else $(".menu_2").css({top: '0', position: 'sticky'});
+});
