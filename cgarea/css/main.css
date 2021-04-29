@@ -898,6 +898,10 @@ footer{
     .search_icon{
         margin-right: 15px;
     }
+    .cards{
+        margin-left: 0;
+        margin-right: 0;
+    }
     
 }
 /* 994px---1850px */
