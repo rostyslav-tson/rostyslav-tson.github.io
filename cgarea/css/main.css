@@ -52,7 +52,7 @@ h3{
     width: 20px;
     height: 26px;
     cursor: pointer;
-    z-index: 10;
+    z-index: 12;
   }
   /* добавляем "гамбургер" */
   .menu__btn > span,
