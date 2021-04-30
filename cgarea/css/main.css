@@ -830,7 +830,7 @@ footer{
     background: #282828;
 }
 .logo_footer{
-    max-height: 30px;
+    max-width: 102px;
 }
 .footer_block{
     padding-top: 85px;
@@ -876,11 +876,15 @@ footer{
     color: #939393;
 }
 .social img{
-    max-height: 20px;
-    margin-left: 20px;
+    width: 30px;
+    height: auto;
+    margin-left: 0px;
 }
 .social p{
     color: #fff;
+}
+.social{
+    align-items: center;
 }
 .copyright{
    margin-left: 20px;
@@ -956,7 +960,7 @@ footer{
     button:active, button:focus {
         outline: none;
       }
-    .menu_2 a{
+    .menu_2_items{
         display: none !important;
     }
     .second_menu_mobile{
@@ -1054,9 +1058,6 @@ footer{
         width: 100%;
         z-index: 100;
         margin-bottom: 30px;
-    }
-    .menu_lamp{
-        padding-top: 30px;
     }
     .menu_lamp{
         justify-content: flex-start !important;
