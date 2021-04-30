@@ -590,7 +590,12 @@ h3{
     border-radius: 0%;
 }
 .profi:before{
-    content:"PROFI";
+    content:"250р";
+    padding-right: 2px;
+    text-decoration: line-through;
+}
+.profi::after{
+    content:" 175р";
 }
 .coll:before{
     content:"Coll";
