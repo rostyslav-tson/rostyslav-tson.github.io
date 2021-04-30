@@ -615,7 +615,8 @@ h3{
 .sale{
     position: absolute;
     top: 10px;
-    right: 25px;
+    right: -270px;
+    left: 0;
 }
 .status_bottom, .status_card{
     font-size: 15px;
