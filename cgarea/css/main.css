@@ -612,6 +612,11 @@ h3{
 .status_card::before{
     content:"В корзину"
 }
+.sale{
+    position: absolute;
+    top: 10px;
+    right: 25px;
+}
 .status_bottom, .status_card{
     font-size: 15px;
     font-weight: 400;
