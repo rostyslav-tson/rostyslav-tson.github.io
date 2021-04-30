@@ -705,6 +705,13 @@ h3{
     height: 496px;
     margin-top: 25px;
 }
+.gallery_blocks{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    width: 100%;
+}
 
 .gallery_1{
     background-image: linear-gradient(to top, rgba(0,0,0, 0.7), 20%, rgba(255,255,255, 0)), url('..//img/placeholder.png');
@@ -956,6 +963,9 @@ footer{
     .card-img-top{
         max-width: 100%;
     }
+    .last_gallery_block{
+        display: none;
+    }
     
 }
 /* 993px---1200px */
@@ -1076,6 +1086,13 @@ footer{
         justify-content: flex-start !important;
         margin-left: 20px;
     }
+    .last_gallery_block{
+        display: block;
+    }
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
   }
   /* 768px---992px */
   @media screen and (max-width: 991px) {
@@ -1130,5 +1147,8 @@ footer{
     }
     .card{
         min-width: 0px !important;
+    }
+    .sale{
+        right: -150px;
     }
   }
