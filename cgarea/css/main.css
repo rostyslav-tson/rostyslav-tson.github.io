@@ -948,6 +948,9 @@ footer{
     .card_5{
         display: block;
     }
+    .last_gallery_block{
+        display: none;
+    }
 }
 /* 994px---1850px */
 @media screen and (max-width: 1900px) {
@@ -963,9 +966,7 @@ footer{
     .card-img-top{
         max-width: 100%;
     }
-    .last_gallery_block{
-        display: none;
-    }
+    
     
 }
 /* 993px---1200px */
