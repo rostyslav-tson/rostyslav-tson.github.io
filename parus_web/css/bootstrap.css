@@ -563,7 +563,7 @@ pre code {
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1140px;
+    max-width: 1200px;
   }
 }
 
@@ -595,7 +595,7 @@ pre code {
 
 @media (min-width: 1200px) {
   .container, .container-sm, .container-md, .container-lg, .container-xl {
-    max-width: 1140px;
+    max-width: 1200px;
   }
 }
 
@@ -4519,7 +4519,7 @@ input[type="button"].btn-block {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .navbar-expand-lg {
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
