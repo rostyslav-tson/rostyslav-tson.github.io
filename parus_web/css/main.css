@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: Helvetica;
+}
+html {
+    scroll-behavior: smooth;
+  }
+a {
+    text-decoration: none;
+    font-family: HelveticaNeueCyr;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    color: #fff;
+}
+.a:hover {
+    cursor: pointer;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: HelveticaNeueCyr;
+    font-weight: 700;
+    font-size: 57px;
+    color: #fff;
+}
+h2 {
+    font-family: HelveticaNeueCyr;
+    font-weight: 100;
+    font-size: 40px;
+    color: #fff;
+}
+h3 {
+    font-family: HelveticaNeueCyr;
+    font-weight: 700;
+    font-size: 35px;
+    color: #000;
+    margin-top: 120px;
+    margin-bottom: 60px;
+}
+h4{
+    font-family: HelveticaNeueCyr;
+    font-weight: 700;
+    font-size: 25px;
+    color: #000;
+}
+p{
+    font-family: HelveticaNeueCyr;
+    font-weight: normal;
+    font-size: 18px;
+    color: #fff;
+    margin: 0;
+}
+
+
+@font-face {
+    font-family: "";  
+    src: url("..//fonts/"); 
+    font-style: normal; 
+    font-weight: 900;
+     }
+
+     @font-face {
+        font-family: "";  
+        src: url("..//fonts/"); 
+        font-style: normal; 
+        font-weight: 700;
+         }
+             @font-face {
+                font-family: "";  
+                src: url("..//fonts/"); 
+                font-style: normal; 
+                font-weight: 500;
+                 }
+                 @font-face {
+                    font-family: "";  
+                    src: url("..//fonts/");  
+                    font-style: normal; 
+                    font-weight: 400;
+                     }
+                     @font-face {
+                        font-family: "";  
+                        src: url("..//fonts/");  
+                        font-style: normal; 
+                        font-weight: normal;
+                         }
+                         @font-face {
+                            font-family: "";  
+                            src: url("..//fonts/");   
+                            font-style: normal; 
+                            font-weight: 200;
+                             }
+/*-- Adaptive--------------------------------------------------*/
+
+
+/* 993px---1200px */
+@media screen and (max-width: 1200px) {
+
+}
+/* 769px---992px */
+@media screen and (max-width: 991px) {
+    
+}
+/* 577px---768px */
+@media screen and (max-width: 768px) {
+
+}
+/* 320px---576px */
+@media screen and (max-width: 576px) {
+
+}
