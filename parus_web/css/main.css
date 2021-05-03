@@ -1,17 +1,17 @@
 body {
     margin: 0;
-    font-family: Helvetica;
+    font-family: 'Montserrat', sans-serif;
 }
 html {
     scroll-behavior: smooth;
   }
 a {
     text-decoration: none;
-    font-family: HelveticaNeueCyr;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 900;
-    font-size: 15px;
-    color: #fff;
+    font-size: 13px;
+    color: #1B1B1B;
 }
 .a:hover {
     cursor: pointer;
@@ -21,77 +21,390 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0;
 }
 h1{
-    font-family: HelveticaNeueCyr;
-    font-weight: 700;
-    font-size: 57px;
-    color: #fff;
-}
-h2 {
-    font-family: HelveticaNeueCyr;
-    font-weight: 100;
-    font-size: 40px;
-    color: #fff;
-}
-h3 {
-    font-family: HelveticaNeueCyr;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 35px;
-    color: #000;
-    margin-top: 120px;
-    margin-bottom: 60px;
+    color: #1B1B1B;
+    padding-top: 120px;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #1B1B1B;
+    padding-top: 80px;
+    margin-bottom: 40px;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #1B1B1B;
 }
 h4{
-    font-family: HelveticaNeueCyr;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 25px;
-    color: #000;
+    font-size: 14px;
+    color: #1B1B1B;
 }
 p{
-    font-family: HelveticaNeueCyr;
+    font-family: 'Montserrat', sans-serif;
     font-weight: normal;
-    font-size: 18px;
-    color: #fff;
+    font-size: 15px;
+    color: #1B1B1B;
     margin: 0;
+}
+input, textarea {
+    outline:none;
+}
+
+.logo{
+    max-width: 50px;
+}
+.navbar a{
+    font-weight: 500;
+    font-size: 15px;
+}
+.navbar{
+    padding: 0;
+}
+.nav-link{
+    margin-left: 20px;
+}
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active{
+    color: #1B1B1B;
+}
+
+.first_block{
+    background: linear-gradient(180deg, #C5F4FF 0%, #FFFFFF 100%);
+}
+h1{
+    max-width: 452px;
+}
+.first_block_caption{
+    max-width: 452px;
+    margin-top: 25px;
+}
+.btn_orange{
+    display: flex;
+    align-items: center;
+    width: 253px;
+    height: 40px;
+    margin-top: 25px;
+    background: #FFA028;
+    border-radius: 25px;
+    text-align: center;
+    transition-duration: 0.3s;
+}
+.btn_orange p{
+    color: #fff;;
+    font-weight: bold;
+    font-size: 13px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    text-align: center;
+    width: 100%;
+}
+.btn_orange:hover{
+    background: #ff8b28;
+}
+.first_block_bg img{
+    padding-top: 120px;
+    padding-bottom: 109px; 
+}
+
+.card_items img{
+    max-width: 200px;
+    text-align: center;
+}
+.card_items{
+    text-align: center;
+}
+.digital_cards{
+    margin-bottom: 80px;
 }
 
 
-@font-face {
-    font-family: "";  
-    src: url("..//fonts/"); 
-    font-style: normal; 
-    font-weight: 900;
-     }
 
-     @font-face {
-        font-family: "";  
-        src: url("..//fonts/"); 
-        font-style: normal; 
-        font-weight: 700;
-         }
-             @font-face {
-                font-family: "";  
-                src: url("..//fonts/"); 
-                font-style: normal; 
-                font-weight: 500;
-                 }
-                 @font-face {
-                    font-family: "";  
-                    src: url("..//fonts/");  
-                    font-style: normal; 
-                    font-weight: 400;
-                     }
-                     @font-face {
-                        font-family: "";  
-                        src: url("..//fonts/");  
-                        font-style: normal; 
-                        font-weight: normal;
-                         }
-                         @font-face {
-                            font-family: "";  
-                            src: url("..//fonts/");   
-                            font-style: normal; 
-                            font-weight: 200;
-                             }
+.second_block{
+    background: url('..//img/second_block_bg.png') no-repeat;
+    background-position: top center;
+}
+.second_block_calculator{
+    background: rgba(251, 251, 251, 0.8);
+    border-radius: 10px;
+}
+.second_block_calculator h3{
+    padding-top: 40px;
+    margin-left: 120px;
+    margin-bottom: 30px;
+}
+.service{
+    display: flex;
+    margin-bottom: 40px;
+}
+.service img{
+    width: 42px;
+    height: 21px;
+    margin-left: 120px;
+    margin-right: 25px;
+}
+.btn_orange_2{
+    margin-left: 185px;
+}
+.price{
+    margin-left: auto;
+    margin-right: 30px;
+    text-align: right;
+    font-size: 25px;
+    padding-bottom: 40px;
+}
+.price span{
+    color: #FFA028;
+    font-weight: 700;
+    
+}
+
+.form_feedback{
+    text-align: center;
+}
+.form_feedback input, textarea{
+    width: 540px;
+    height: 41px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+    border: none;
+    padding: 13px;
+    margin-bottom: 20px;
+}
+textarea{
+    height: auto;
+}
+.btn_orange_3{
+    margin-left: auto;
+    margin-right: auto;
+    width: 540px;
+    margin-top: 0;
+}
+.btn_orange_3 p{
+    text-align: center;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+form{
+    margin-bottom: 80px;
+}
+
+footer{
+    background: #EDFAFD;
+}
+.footer_top{
+    padding-top: 30px;
+    align-items: center;
+}
+.footer_menu a, .footer_bottom a{
+    font-weight: 500;
+}
+.social img{
+    max-width: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.social{
+    max-width: 300px;
+}
+.footer_bottom a{
+    margin-right: 80px;
+}
+.footer_bottom{
+    margin-top: 40px;
+    padding-bottom: 30px;
+}
+.footer_bottom p{
+    font-size: 13px;
+}
+.footer_top .logo{
+    max-width: 80px;
+}
+
+
+
+/*-- About Us--------------------------------------------------*/
+.about_us_first_block{
+    background: url('..//img/about_us_bg.png') no-repeat, #ECFCFF;
+    background-position: bottom left;
+}
+.about_us_caption{
+    max-width: 540px;
+}
+.about_us_logo{
+    max-width: 150px;
+    max-height: 182px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.owner_caption{
+    font-weight: 300;
+    font-size: 13px;
+    color: #8C8C8C;
+}
+.owner_paragraph{
+    font-weight: 300;
+    font-size: 15px;
+    color: #8C8C8C;
+    font-style: italic;
+}
+.owner_text{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 530px;
+    margin-top: 80px;
+}
+.owner_caption{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.about_us_block_2{
+    margin-top: 80px;
+    padding-bottom: 80px;
+}
+
+.about_us_second_block img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.review{
+    text-align: center;
+    padding-bottom: 120px;
+}
+.about_us_review{
+    background: url('..//img/review_bg.png') no-repeat center center;
+}
+.owner_text2{
+    margin-top: 40px;
+}
+/*-- End About Us--------------------------------------------------*/
+
+/*-- Service --------------------------------------------------*/
+.service_block{
+    background: url('../img/service_bg.png') no-repeat top right -300px;
+    padding-bottom: 120px;
+}
+.service_block p{
+    max-width: 80%;
+}
+/*-- End Service --------------------------------------------------*/
+
+/*-- Commercial --------------------------------------------------*/
+.commercial_block{
+    background: #FBFBFB;
+}
+.commercial_card{
+    background: #fff;
+    margin-bottom: 40px;
+    padding-bottom: 17px;
+}
+.commercial_card a{
+    font-size: 13px;
+    color: #A7A7A7;
+    font-weight: 400;
+    margin-left: 17px;
+}
+.commercial_card h3{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 17px;
+}
+.commercial_card img{
+    width: 100%;
+}
+/*-- End Commercial --------------------------------------------------*/
+
+/*-- Contacts --------------------------------------------------*/
+.contacts_block_2{
+    margin-left: auto;
+    margin-right: auto;
+}
+.email img, .phone img, .location img, .documents img{
+    margin-right: 15px;
+}
+.email, .phone, .location, .documents{
+    margin-top: 15px;
+}
+/*-- End Contacts --------------------------------------------------*/
+
+.test_block{
+    background: url('..//img/map3.png') no-repeat top center;
+    width: 1110;
+    height: 653.47px;
+}
+.Moscow{
+    top: 334px;
+    right: 0;
+    left: 184px;
+}
+.Sankt_Petersburg{
+    top: 292px;
+    right: 0;
+    left: 216px;
+}
+.Krasnodar{
+    top: 494px;
+    right: 0;
+    left: 56px;
+}
+.Udmur{
+    top: 396px;
+    right: 0;
+    left: 216px;
+}
+.Tatarstan{
+    top: 462px;
+    right: 0;
+    left: 275px;
+}
+.Perm{
+    top: 432px;
+    right: 0;
+    left: 329px;
+}
+.Chelyabinsk{
+    top: 511px;
+    right: 0;
+    left: 343px;
+}
+.Omsk{
+    top: 483px;
+    right: 0;
+    left: 433px;
+}
+.Sverdlovsk{
+    top: 413px;
+    right: 0;
+    left: 396px;
+}
+.XMAO{
+    top: 381px;
+    right: 0;
+    left: 454px;
+}
+.map_buttons a{
+    color: #fff;
+    font-weight: 200;
+    position: absolute;
+    font-size: 12px;
+}
+.map_buttons{
+    position: relative;
+}
+
+
+
+
+
 /*-- Adaptive--------------------------------------------------*/
 
 
