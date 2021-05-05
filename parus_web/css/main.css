@@ -405,52 +405,42 @@ button:active, button:focus {
   }
 .Moscow{
     top: 334px;
-    right: 0;
     left: 164px;
 }
 .Sankt_Petersburg{
     top: 272px;
-    right: 0;
     left: 191px;
 }
 .Krasnodar{
     top: 453px;
-    right: 0;
     left: 31px;
 }
 .Udmur{
     top: 332px;
-    right: 0;
     left: 194px;
 }
 .Tatarstan{
     top: 360px;
-    right: 0;
     left: 251px;
 }
 .Perm{
     top: 309px;
-    right: 0;
     left: 305px;
 }
 .Chelyabinsk{
     top: 367px;
-    right: 0;
     left: 319px;
 }
 .Omsk{
     top: 316px;
-    right: 0;
     left: 410px;
 }
 .Sverdlovsk{
     top: 225px;
-    right: 0;
     left: 373px;
 }
 .XMAO{
     top: 173px;
-    right: 0;
     left: 432px;
 }
 .map_buttons a{
@@ -461,6 +451,7 @@ button:active, button:focus {
 }
 .map_buttons{
     position: relative;
+    max-width: 152px;
 }
 
 
@@ -496,52 +487,42 @@ button:active, button:focus {
     }
     .Moscow{
         top: 304px;
-        right: auto;
         left: 109px;
     }
     .Sankt_Petersburg{
         top: 224px;
-        right: auto;
         left: 131px;
     }
     .Krasnodar{
         top: 369px;
-        right: auto;
         left: 0px;
     }
     .Udmur{
         top: 262px;
-        right: auto;
         left: 124px;
     }
     .Tatarstan{
         top: 286px;
-        right: auto;
         left: 182px;
     }
     .Perm{
         top: 238px;
-        right: auto;
         left: 228px;
     }
     .Chelyabinsk{
         top: 282px;
-        right: auto;
         left: 238px;
     }
     .Omsk{
         top: 235px;
-        right: auto;
         left: 313px;
     }
     .Sverdlovsk{
         top: 158px;
-        right: auto;
         left: 283px;
     }
     .XMAO{
         top: 110px;
-        right: auto;
         left: 332px;
     }
     .modal{
