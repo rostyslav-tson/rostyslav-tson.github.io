@@ -57,13 +57,64 @@ p{
 input, textarea {
     outline:none;
 }
+.commercial_home_left img, .commercial_home_right img{
+    max-width: 80px;
+}
+.commercial_home_top img, .commercial_home_bottom img{
+    max-height: 174px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.commercial_home_top, .commercial_home_bottom {
+    display: flex;
+    justify-content: space-between;
+}
 
+.commercial_home_left{
+    position: absolute;
+    top:245px;
+    left: 0;
+}
+.commercial_home_right{
+    position: absolute;
+    top:245px;
+    right: 0;
+}
+.commercial_buttons{
+    
+}
+.navbar-expand-lg{
+    justify-content: space-between;
+}
+#mega-menu-wrap-menu-1 #mega-menu-menu-1 > li.mega-menu-item > a.mega-menu-link{
+    font-weight: 500;
+}
+#mega-menu-wrap-menu-1 #mega-menu-menu-1 > li.mega-menu-item > a.mega-menu-link:hover{
+    font-weight: 500;
+}
+/*
+.sub-item-title{
+    content: "" !important;
+    visibility: hidden;
+}
+.total span:before{
+    content: "Всего" ;
+}
+*/
 .logo{
     max-width: 50px;
 }
-.navbar a{
+.navbar-nav a{
     font-weight: 500;
     font-size: 15px;
+    margin-left: 20px;
+    color: #1b1b1b;
+    opacity: 0.8;
+}
+
+.navbar-nav a:hover{
+    color: #1b1b1b;
+    opacity: 1;
 }
 .navbar{
     padding: 0;
@@ -341,55 +392,66 @@ footer{
     width: 1110;
     height: 653.47px;
 }
+.map_btn{
+    background: none;
+    border: none;
+    color: #fff;
+    font-weight: 200;
+    font-size: 12px;
+    outline: none;
+}
+button:active, button:focus {
+    outline: none;
+  }
 .Moscow{
     top: 334px;
     right: 0;
-    left: 184px;
+    left: 164px;
 }
 .Sankt_Petersburg{
-    top: 292px;
+    top: 272px;
     right: 0;
-    left: 216px;
+    left: 191px;
 }
 .Krasnodar{
-    top: 494px;
+    top: 453px;
     right: 0;
-    left: 56px;
+    left: 31px;
 }
 .Udmur{
-    top: 396px;
+    top: 332px;
     right: 0;
-    left: 216px;
+    left: 194px;
 }
 .Tatarstan{
-    top: 462px;
+    top: 360px;
     right: 0;
-    left: 275px;
+    left: 251px;
 }
 .Perm{
-    top: 432px;
+    top: 309px;
     right: 0;
-    left: 329px;
+    left: 305px;
 }
 .Chelyabinsk{
-    top: 511px;
+    top: 367px;
     right: 0;
-    left: 343px;
+    left: 319px;
 }
 .Omsk{
-    top: 483px;
+    top: 316px;
     right: 0;
-    left: 433px;
+    left: 410px;
 }
 .Sverdlovsk{
-    top: 413px;
+    top: 225px;
     right: 0;
-    left: 396px;
+    left: 373px;
 }
 .XMAO{
-    top: 381px;
+    top: 173px;
     right: 0;
-    left: 454px;
+    left: 432px;
 }
 .map_buttons a{
     color: #fff;
@@ -410,6 +472,81 @@ footer{
 
 /* 993px---1200px */
 @media screen and (max-width: 1200px) {
+    h1{
+        text-align: center;
+        max-width: none;
+    }
+    .first_block_caption{
+        max-width: none;
+        text-align: center;
+    }
+    .first_block_bg img{
+        max-width: 100%;
+    }
+    .btn_orange{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .first_block_bg{
+        text-align: center;
+    }
+    .test_block{
+        max-width: 100%;
+        background-size: contain;
+    }
+    .Moscow{
+        top: 304px;
+        right: auto;
+        left: 109px;
+    }
+    .Sankt_Petersburg{
+        top: 224px;
+        right: auto;
+        left: 131px;
+    }
+    .Krasnodar{
+        top: 369px;
+        right: auto;
+        left: 0px;
+    }
+    .Udmur{
+        top: 262px;
+        right: auto;
+        left: 124px;
+    }
+    .Tatarstan{
+        top: 286px;
+        right: auto;
+        left: 182px;
+    }
+    .Perm{
+        top: 238px;
+        right: auto;
+        left: 228px;
+    }
+    .Chelyabinsk{
+        top: 282px;
+        right: auto;
+        left: 238px;
+    }
+    .Omsk{
+        top: 235px;
+        right: auto;
+        left: 313px;
+    }
+    .Sverdlovsk{
+        top: 158px;
+        right: auto;
+        left: 283px;
+    }
+    .XMAO{
+        top: 110px;
+        right: auto;
+        left: 332px;
+    }
+    .modal{
+        max-width: 960px;
+    }
 
 }
 /* 769px---992px */
