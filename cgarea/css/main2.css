@@ -35,7 +35,7 @@
     font-size: 11px;
 }
 .look_line{
-    border: 1px solid #cccccc;
+    border-top: 1px solid #cccccc;
     width: 100%;
 }
 .download{
