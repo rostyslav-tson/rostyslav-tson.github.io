@@ -1,0 +1,165 @@
+.look_block{
+    padding-top: 62px;
+}
+.photo_look{
+    max-width: 522px;
+    max-height: 522px;
+    margin-left: 22px;
+}
+.photo_look_preview{
+    max-width: 110px;
+    max-height: 110px;
+    margin-bottom: 24px;
+    margin-left: 15px;
+}
+.look{
+    background: #f3f3f3;
+}
+.previews{
+    display: flex;
+    flex-direction: column;
+}
+.look_caption {
+    margin-left: 110px;
+}
+.look_caption h4{
+    font-style: 24px;
+    font-weight: normal;
+}
+.look_caption_price{
+    color: #69b2af;
+    font-size: 22px;
+}
+.rating{
+    color: #999999;
+    font-size: 11px;
+}
+.look_line{
+    border: 1px solid #cccccc;
+    width: 100%;
+}
+.download{
+    align-items: center;
+    border: 1px solid #dddddd;
+    padding: 11px 14px;
+    height: 43px;
+}
+.download p{
+    color: #939393;
+    font-size: 15px;
+    font-weight: 100;
+}
+.buy{
+    background: #e8e8e8;
+    align-items: center;
+    padding: 17px 43px;
+    height: 43px;
+}
+.buy p{
+    font-size: 15px;
+}
+.look_like img{
+    width: 14px;
+    height: 14px;
+}
+.look_like{
+    align-items: center;
+    justify-content: center;
+    background: #e8e8e8;
+    margin-left: 13px;
+    width: 43px;
+    height: 43px;
+}
+.look_heart img{
+    width: 31px;
+    height: 24px;
+}
+.look_heart{
+    align-items: center;
+    justify-content: center;
+    background: #e8e8e8;
+    margin-left: 13px;
+    width: 43px;
+    height: 43px;
+}
+.look_captions_block_title{
+    font-size: 14px;
+    color: #999999;
+    font-weight: 500;
+    width: 82px;
+}
+.look_captions_block_text{
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 14px;
+}
+.look_captions_block_right{
+    margin-left: 110px;
+}
+.funmaker{
+    color: #69b2af;
+    border-left: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    padding-left: 12px;
+    padding-bottom: 14px;
+    width: 275px;
+}
+.look_product{
+    border-left: 1px solid #cccccc;
+    padding-left: 12px;
+    padding-bottom: 14px;
+    color: #939393;
+}
+.ellipse_margin{
+    margin-left: 10px;
+}
+.look_tags p{
+    max-width: 450px;
+    margin-right: 20px;
+    color: #999999;
+}
+.description_look p{
+    background: #252525;
+    color: white;
+    font-size: 12px;
+    width: 160px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reviews_look{
+    color: #050505;
+    font-size: 12px;
+    width: 160px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #dddddd;
+}
+.container_custom{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1920px;
+}
+.look{
+    display: flex;
+    justify-content: center;
+}
+.look_caption_bottom h5{
+    font-size: 11px;
+    margin-bottom: 0;
+}
+.look_caption_bottom{
+    margin-top: 47px;
+}
+.look_caption_bottom_text{
+    color: #999999;
+}
+.gallery_header2 p{
+    font-size: 22px;
+}
+.button{
+    outline: none;
+}

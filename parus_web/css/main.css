@@ -453,7 +453,9 @@ button:active, button:focus {
     position: relative;
     max-width: 152px;
 }
-
+.mobile_map{
+    display: none;
+}
 
 
 
@@ -484,6 +486,9 @@ button:active, button:focus {
     .test_block{
         max-width: 100%;
         background-size: contain;
+    }
+    .text-center{
+        padding-top: 0;
     }
     .Moscow{
         top: 304px;
@@ -529,16 +534,149 @@ button:active, button:focus {
         max-width: 960px;
     }
 
+
+
+    .about_us_block_2{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .about_us_owner{
+        width: 100%;
+    }
+
+
 }
 /* 769px---992px */
 @media screen and (max-width: 991px) {
-    
+    .Moscow{
+        top: 224px;
+        left: 75px;
+    }
+    .Sankt_Petersburg{
+        top: 160px;
+        left: 92px;
+    }
+    .Krasnodar{
+        top: 259px;
+        left: 0px;
+    }
+    .Udmur{
+        top: 179px;
+        left: 55px;
+    }
+    .Tatarstan{
+        top: 183px;
+        left: 129px;
+    }
+    .Perm{
+        top: 143px;
+        left: 163px;
+    }
+    .Chelyabinsk{
+        top: 170px;
+        left: 168px;
+    }
+    .Omsk{
+        top: 127px;
+        left: 226px;
+    }
+    .Sverdlovsk{
+        top: 56px;
+        left: 217px;
+    }
+    .XMAO{
+        top: 15px;
+        left: 252px;
+    }
+    .footer_top{
+        flex-wrap: wrap;
+    }
+    .logo_footer, .footer_menu, .contacts_block, .social{
+        width: 100%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+    .email, .phone{
+        justify-content: center;
+    }
+    .footer_bottom{
+        flex-direction: column-reverse;
+        text-align: center;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer_bottom p, .footer_bottom a{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+    .about_us_block{
+        flex-wrap: wrap;
+    }
+    .about_us_text, .about_us_logo, .about_us_caption{
+        text-align: center;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+    .contacts_blocks{
+        flex-wrap: wrap;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+    .email2, .phone2, .location2, .documents2{
+        justify-content: flex-start;
+    }
+    .email2 p, .phone2 p, .location2 p, .documents2 p{
+        margin-left: 10px;
+        text-align: left;
+    }
+    .email2 img, .phone2 img, .location2 img, .documents2 img{
+        height: 24px;
+    }
 }
 /* 577px---768px */
 @media screen and (max-width: 768px) {
-
+    .mobile_map{
+        display: block;
+        max-width: 100%;
+    }
+    .test_block{
+        display: none;
+    }
+    .text-center{
+        padding-top: 80px;
+    }
+    .form_feedback input, textarea, .btn_orange_3{
+        max-width: 100%;
+        width: 100%;
+    }
 }
 /* 320px---576px */
 @media screen and (max-width: 576px) {
-
+    .second_block_calculator h3, .service img{
+        margin-left: 10px;
+    }
+    .owner, .review_img{
+        max-width: 100%;
+    }
+    h2{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
