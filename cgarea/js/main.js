@@ -81,3 +81,8 @@ $(window).scroll(function() {
   if (top < 300) $(".menu_2").css({top: '67px', position: 'sticky'});
   else $(".menu_2").css({top: '0', position: 'sticky'});
 });
+
+
+$(function(){
+  $('.example').hSmartThumbnail();
+});
