@@ -29,6 +29,9 @@
     color: #000;
     background-color: #000;
 }
+.carousel-control-next-icon{
+    padding: 10px;
+}
 .look_caption {
     margin-left: 110px;
 }
