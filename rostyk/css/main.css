@@ -1,0 +1,827 @@
+body {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-family: Titillium Web;
+    font-weight: normal;
+    font-size: 16px;
+}
+.a:hover {
+    cursor: pointer;
+}
+.content{
+    margin: 0 auto;
+    width: 1100px;
+}
+h1{
+    color: white;
+    font-family: Titillium Web;
+    font-weight: bold;
+    font-size: 42px;
+    text-align: center;
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+.services_paragraph, .team_paragraph, .skills_paragraph, .form_paragraph{
+    width: 575px;
+    margin: 0 auto;
+}
+/* HEADER*/
+header {
+    background-color:#87509c;
+}
+.menu_section {
+    display: flex;
+}
+.logo {
+    margin: 58px 0px 0 42px;
+}
+.menu {
+    margin-top: 60px;
+    margin-left: 7px;
+    padding: 10px 17px;
+    border-radius: 3px;
+    transition-duration: .3s;
+}
+.menu1 {
+    margin-left: 479px;
+}
+.menu:hover {
+    background-color: #643a79;
+}
+.head{
+    margin-top: 124px;
+    line-height: 1.2em;
+}
+.btn{
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 140px;
+}
+.btn a {
+    padding: 28px 82px;
+    font-size: 18px;
+    font-family: Titillium Web;
+    font-weight: 600;
+    background-color: #eb7d4b;
+    border-radius: 3px;
+    transition-duration: .3s;
+}
+.btn a:hover{
+    background-color: #f4611f;
+}
+/* END HEADER*/
+
+/* SERVICES*/
+.services_section {
+    background-color:#17c2a4;
+}
+.services_header{
+    color: white;
+    font-family: Titillium Web;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 120px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.line{
+    height: 4px;
+    width: 87px;
+    border: none;
+    background-color: black;
+    opacity: 0.15;
+}
+.services_paragraph{
+    color: white;
+    font-family: Titillium Web;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 6px;
+}
+.services_parts {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    padding-bottom: 130px;
+}
+.services_part_1{
+    text-align: center;
+    margin-left: 28px;
+    margin-right: 28px;
+}
+.services_part_header{
+    color: white;
+    font-family: Titillium Web;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+.services_part_text{
+    color: white;
+    font-family: Titillium Web;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+    width: 203px;
+    margin-top: 10px;
+}
+.services_parts img{
+    max-height: 124px;
+}
+
+/* END SERVICES*/
+
+/* TEAM*/
+.team_section {
+    background-color:#e7f1f8;
+}
+.team_header{
+    color: #3c4761;
+    font-family: Titillium Web;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 120px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.line_team{
+    height: 4px;
+    width: 87px;
+    border: none;
+    background-color: #bdd1df;;
+    opacity: 0.75;
+}
+.team_paragraph{
+    color: #3c4761;
+    font-family: Titillium Web;
+    font-weight: normal;
+    font-size: 19px;
+    text-align: center;
+    padding-top: 6px;
+}
+.team_parts {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.team_part_1{
+    text-align: center;
+    margin-left: 28px;
+    margin-right: 28px;
+}
+.team_part_header{
+    color: #27283d;
+    font-family: Titillium Web;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 0;
+}
+.team_part_caption{
+    color: #30bae7;
+    font-family: Titillium Web;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 2px;
+}
+.team_part_text{
+    color: #3c4761;
+    font-family: Titillium Web;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+    width: 203px;
+    margin-top: 18px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    height: 160px;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 33px;
+}
+.icons2{
+    display: flex;
+    justify-content: space-between;
+    height: 160px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 33px;
+}
+/* END TEAM*/
+
+/* SKILLS*/
+.skills_header{
+    color: #3c4761;
+    font-family: Titillium Web;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 120px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.skills_team{
+    height: 4px;
+    width: 87px;
+    border: none;
+    background-color: #bdd1df;;
+    opacity: 0.75;
+}
+.skills_paragraph{
+    color: #3c4761;
+    font-family: Titillium Web;
+    font-weight: normal;
+    font-size: 19px;
+    text-align: center;
+    padding-top: 6px;
+}
+.skills_block{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    margin-bottom: 120px;
+}
+.skill{
+    width: 260px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skill_percent{
+    text-align: center;
+    margin-top: 50px;
+}
+.skill_percent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 160px;
+    font-family: Titillium Web;
+    font-weight: 100;
+    font-size: 50px;
+    text-align: center;
+}
+.skill_percent span {
+    font-size: 32px;
+    align-items: flex-end;
+    height: 40px;
+}
+.skill_name{
+    font-family: Titillium Web;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 30px;
+    color: #3c4761;
+}
+.skill_percent_1{
+    background: url('../img/skill_1.png') no-repeat center top;
+}
+.skill_percent_2{
+    background: url('../img/skill_2.png') no-repeat center top;
+}
+.skill_percent_3{
+    background: url('../img/skill_3.png') no-repeat center top;
+}
+.skill_percent_4{
+    background: url('../img/skill_4.png') no-repeat center top;
+}
+
+/* END SKILLS*/
+
+/* PORTFOLIO*/
+.portfolio_section{
+    background: #ffdd99;
+}
+.portfolio_header{
+    color: #3c4761;
+    font-family: Titillium Web;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 120px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.portfolio_team{
+    height: 4px;
+    width: 87px;
+    border: none;
+    background-color: #e5c37f;
+}
+.portfolio_paragraph{
+    color: #3c4761;
+    font-family: Titillium Web;
+    font-weight: normal;
+    font-size: 19px;
+    text-align: center;
+    padding-top: 6px;
+}
+.portfolio_menu{
+    display: flex;
+    width: 380px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 42px;
+    margin-bottom: 60px;
+}
+.portfolio_menu_1{
+    width: 84px;
+    height: 38px;
+    background-color: #ebc985;
+    color: #393939;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.1s;
+}
+.portfolio_menu_2{
+    width: 90px;
+}
+.portfolio_menu_1:hover{
+    background: #fff;
+}
+.portfolio_block{
+    display: flex;
+    justify-content: space-between;
+}
+.portfolio_block p {
+    color: #393939;
+    font-family: Titillium Web;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+}
+.portfolio_2{
+    margin-left: 20px;
+}
+.portfolio_block_2{
+    margin-top: 65px;
+}
+.portfolio_blocks{
+    padding-bottom: 120px;
+}
+
+/* END PORTFOLIO*/
+
+/*-- REVIEW------------------------------------------------*/
+.review_section {
+    background-color:#d74680;
+}
+.review_header{
+    color: white;
+    font-family: Titillium Web;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 120px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.review_paragraph{
+    color: white;
+    font-family: Titillium Web;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 6px;
+}
+.review_parts {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding-bottom: 130px;
+}
+.review_parts2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+    padding-bottom: 130px;
+}
+.review_part_1{
+    display: flex;
+    margin-left: 28px;
+    margin-right: 28px;
+}
+.review_part_1 img {
+    max-width: 96px;
+    max-height: 96px;
+    margin-top: 20px;
+}
+.review_part_text{
+    color: white;
+    font-family: Titillium Web;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 21px;
+    text-align: left;
+    width: 357px;
+    margin-top: 18px;
+}
+.review_part_header{
+    color: white;
+    font-family: Titillium Web;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: left;
+    margin-top: 24px;
+    margin-bottom: 0;
+}
+.review_part_caption{
+    color: #ffdd99;
+    font-family: Titillium Web;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 2px;
+}
+.review_caption{
+    margin-left: 50px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    height: 160px;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 33px;
+}
+.icons2{
+    display: flex;
+    justify-content: space-between;
+    height: 160px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 33px;
+}
+
+/*-- END REVIEW------------------------------------------------*/
+
+/*-- FORM------------------------------------------------*/
+.form_section {
+    background-color:#3c5499;
+}
+.form_header{
+    color: white;
+    font-family: Titillium Web;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 120px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.line_form{
+    height: 4px;
+    width: 87px;
+    border: none;
+    background-color: #273a71;
+}
+.form_paragraph{
+    color: white;
+    font-family: Titillium Web;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 6px;
+}
+.input_1{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: Titillium Web;
+    font-weight: normal;
+    font-size: 18px;
+    padding-left: 15px;;
+    background-color: #273a71;
+    width: 415px;
+    height: 50px;
+}
+.input_2{
+    margin-left: 32px;
+}
+.input_3{
+    margin-top: 27px;
+    width: 880px;
+    height: 200px;
+    padding-top: 20px;
+}
+.form {
+    text-align: center;
+    margin-top: 77px;
+    padding-bottom: 140px;
+}
+/*-- END FORM------------------------------------------------*/
+
+/*-- FOOTER------------------------------------------------*/
+footer{
+    background-color:#344b8e;
+    text-align: center;
+    height: 112px;
+}
+.links {
+    padding-top: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+.links a {
+    color: white;
+    font-family: Titillium Web;
+    font-weight: normal;
+    font-size: 24px;
+    transition-duration: .3s;
+}
+.links a:hover{
+    color: #30bae7;
+}
+/*-- END FOOTER------------------------------------------------*/
+/* скрываем чекбокс */
+#menu__toggle {
+    opacity: 0;
+  }
+  .hamburger-menu{
+      width: 200px;
+  }
+  /* стилизуем кнопку */
+  .menu__btn {
+    display: flex; /* используем flex для центрирования содержимого */
+    align-items: center;  /* центрируем содержимое кнопки */
+    position: absolute;
+    top: 70px;
+    right: 42px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  /* добавляем "гамбургер" */
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+  }
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+  }
+  /* контейнер меню */
+.menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 30px 0;
+    list-style: none;
+    text-align: center;
+    background-color: black;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+  }
+  .menu__box li{
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+  /* элементы меню */
+  .menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .menu__item:hover {
+    background-color: red;
+  }
+  #menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    left: 0;
+  }
+  .hamburger-menu{
+      display: none;
+  }
+  .menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  transition-duration: .25s;
+}
+.menu__box {
+  transition-duration: .25s;
+}
+.menu__item {
+  transition-duration: .25s;
+}
+
+
+/*-- Adaptive--------------------------------------------------*/
+
+
+/* 992px---1200px */
+@media screen and (max-width: 1200px) {
+	.content {
+        width: 960px;
+    }
+    .menu1{
+        margin-left: 360px;
+    }
+    .services_parts, .team_parts, .skills_block, .portfolio_block, .review_parts, .review_parts2{
+        flex-wrap: wrap;
+        width: 600px;
+        margin: 60px auto;
+        margin-bottom: 0;   
+    }
+    .services_part_1:nth-child(3), .services_part_1:nth-child(4){
+        margin-top: 60px;
+    }
+    .portfolio_1, .portfolio_2{
+        margin-top: 60px;
+    }
+    .review_part_text{
+        width: 567px;
+    }
+    .review_parts, .review_parts2{
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    .review_parts2{
+        margin-top: 18px;
+        padding-bottom: 120px;
+    }
+    .skills_block {
+        margin-bottom: 120px;
+    }
+}
+/* 768px---992px */
+@media screen and (max-width: 992px) {
+	.content {
+        width: 720px;
+    }
+    .menu1{
+        margin-left: 120px;
+    }
+    .services_parts, .team_parts, .skills_block, .portfolio_block, .review_parts, .review_parts2{
+        width: 540px;
+    }
+    .services_paragraph, .team_paragraph, .skills_paragraph, .form_paragraph{
+        width: 540px;
+    }
+    .portfolio_2{
+        margin-left: 0;
+    }
+    .review_part_text{
+        width: 370px;
+    }
+    .input_2{
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .input_3{
+        margin-left: 0;
+        margin-top: 15px;
+        width: 415px;
+    }
+}
+/* 576px---768px */
+@media screen and (max-width: 768px) {
+	.content {
+        width: 540px;
+    }
+    .menu {
+        display: none;
+    }
+    .hamburger-menu{
+        display: block;
+    }
+    .menu_hum{
+        display: block;
+    }
+    .menu1{
+        margin-left: 0;
+    }
+    .menu{
+        margin-top: 0;
+    }
+    .links{
+        flex-wrap: wrap;
+        width: 70px;
+    }
+    footer {
+        height: 330px;
+    }
+    
+}
+
+/* 320px---576px */
+@media screen and (max-width: 576px) {
+	.content {
+        width: 80%;
+    }
+    .services_paragraph, .team_paragraph, .skills_paragraph, .form_paragraph{
+        width: 80%;
+    }
+    .services_parts, .team_parts, .skills_block, .portfolio_block, .review_parts, .review_parts2{
+        width: 80%;
+    }
+    .services_part_1{
+        margin-top: 60px;
+    }
+    .portfolio_menu{
+        flex-wrap: wrap;
+        width: 230px;
+    }
+    .portfolio_menu_1, .portfolio_menu_2{
+        width: 100px ;
+    }
+    .portfolio_menu_2{
+        margin-top: 30px;
+    }
+    .portfolio_1, .portfolio_2{
+        width: 100%;
+    }
+    .portfolio_1 img, .portfolio_2 img{
+        width: 100%;
+    }
+    .portfolio_block{
+        margin-top: 0;
+    }
+
+    .btn a {
+        padding: 20px 40px;
+    }
+    h1 {
+        font-size: 18px;
+    }
+    .btn a {
+        font-size: 12px;
+    }
+    .services_header, .team_header, .review_header, .form_headers {
+        font-size: 30px;
+    }
+    .review_parts{
+        width: 80%;
+    }
+    .review_part_1 {
+        flex-wrap: wrap;
+    }
+    .review_caption  {
+        margin-left: 0px;
+    }
+    .review_part_text {
+        width: 100%;
+    }
+    .input_1 {
+        width: 255px;
+    }
+    .services_parts, .team_parts, .review_parts  {
+        justify-content: center;
+    }
+    .links{
+        flex-wrap: wrap;
+        width: 70px;
+    }
+    .skill{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
